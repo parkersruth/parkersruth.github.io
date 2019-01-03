@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='../style.css'>
+
+    <title> Parker Ruth </title>
+	<meta charset="UTF-8">
+    <meta name="description" content="Parker's Personal Homepage">
+    <meta name="author" content="Parker Ruth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<center><a class="myname" href='index.html'>Parker Ruth</a></center>
+
+    <ul class='navbar'>
+		<li class='navlink'><a href="../index.html">About</a></li>
+		<li class='navlink'><a href="../research/index.html">Research</a></li>
+        <li class='navlink imhere'><a href="../projects/index.html">Projects</a></li>
+		<li class='navlink'><a href="../leadership/index.html">Leadership</a></li>
+        <li class='navlink'><a href="../honors/index.html">Honors</a></li>
+    </ul>
+</head>
+<body>
+
+
+<h1 id="heart-monitor"> Mobile Heart Monitor </h1>
+<img src="../imgs/ecg_monitor.png" class='right' draggable="false">
+<p>
+	As a final project for CSE 474, I built a mobile heart monitor prototype
+	made from commodity hardware components. The electrocardiogram (ECG)
+	measured from the thumbs placed on two metal electrodes is displayed on a
+	touchscreen. The P wave and QRS complex are detected and annotated in
+	real-time. ECG abnormalities are detected and interpreted as potential
+	heart maladies such as arrhythmia, premature ventricular contraction,
+	and heart block. After a 30-second measurement, the user can review the
+	trace and cardio health summary. The device also connects over Bluetooth to
+	a smartphone using industry-standard GATT commands. For this project I
+	hard-coded a bank of IIR filters in C++ to perform real-time signal
+	processing and event detection, interfaced with peripherals through SPI and
+	I<sup>2</sup>C protocols, and built event-based control flow for user
+	interaction.
+</p>
+<a class="button" target="_blank" href="../docs/ecg_monitor.pdf">Report</a>
+
+<h1 id="amorphous"> Amorphous Computing </h1>
+<div class="wrapper">
+  <div class="h_iframe">
+    <!-- a transparent image is preferable -->
+	<img class='ratio' src="../imgs/placeholder16x9.png">
+    <iframe src="https://www.youtube.com/embed/N-jZSdn5gtY?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+<p>
+	Amorphous computing explores the ways that distributed computing nodes with
+	individually limited capacity can collectively and asynchronously perform
+	emergent global computations. Building better tools for designing amorphous
+	algorithms can have implications for swarm robotics, grid computing, and
+	synthetic biology among other fields.
+</p>
+<p>
+	Inspired by amorphous computing literature, this project presents Pinguin,
+	an amorphous computing simulator and development environment. I designed a
+	domain-specific language called Ping and implemented a source-to-source
+	compiler into javascript to make amorphous code editable in a web browser.
+	The user can interact with the amorphous simulation as it updates thousands
+	of cells at 60 fps. I also wrote and produced an educational video to
+	raise awareness of this topic.
+</p>
+<a class="button" target="_blank" href="https://parkersruth.github.io/amorphous/">Website</a>
+
+
+<h1 id="vadernet"> VaderNet </h1>
+<img src="../imgs/vadernet.png" class='inline' draggable="false">
+<p>
+	VaderNet is a deep neural network based on AlexNet that can classify Star
+	Wars characters. I prepared a labeled dataset with over 300 images from five
+	classes using a Google Chrome extension to download top image search
+	results. Since this dataset was too small to train a model from scratch, I
+	used the pre-trained AlexNet for network architecture and weight
+	initialization. I modified and re-trained the last fully connected layer to
+	map high-level features to the new Star Wars character classes. The
+	resulting convolutional neural network has an accuracy of 98% on held-out
+	testing data. I also generated DeepDream-style network output to visualize
+	the learned classes.
+</p>
+<!-- <a class="button" target="_blank" href="vadernet.html">More</a> -->
+<a class="button" target="_blank" href="../docs/vadernet.pdf">Report</a>
+
+<h1 "paper-cup-construction"> Paper Cup Construction </h1>
+<div class="wrapper">
+  <div class="h_iframe">
+    <!-- a transparent image is preferable -->
+	<img class='ratio' src="../imgs/placeholder16x9.png">
+    <iframe src="https://www.youtube.com/embed/4oVxz8TCvd4?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<p>
+	Playing with simple constructive toys has been correlated with improved
+	visual-spatial reasoning, mathematical and problem solving abilities,
+	language acquisition, social skills, and creativity. Paper cups are an ideal
+	play medium, striking a unique balance of artistic flexibility and physical
+	problem solving. The creative, stimulating, and collaborative aspects of
+	paper cup construction make it an exemplary educational activity. Paper cups
+	are extremely affordable, safe, storable, and surprisingly durable. In an
+	age of electronics and marketing hype, paper cups are refreshingly simple,
+	in keeping with research findings that the simplest toys can often be the
+	most intellectually stimulating. Because early play with simple constructive
+	toys has been correlated with later academic success, paper cups provide
+	families and schools with a low-cost, creative, cooperative activity. They
+	are also perfect for professional team building or icebreaker activities.
+</p>
+<p>
+	To promote the concept of paper cup construction, I produced a short video,
+	created a website, compiled a technical report, and published a book on the
+	topic. I periodically host paper cup construction activities at local
+	educational venues. This project was recognized as an honorable mention in
+	the
+	<a href="https://www.davidsongifted.org/Fellows-Scholarship" target="_blank">Davidson Fellows Scholarship</a>.
+</p>
+<a class="button" target="_blank" href="http://papercupconstruction.com">Website</a>
+<a class="button" target="_blank" href="../docs/pcc_report.pdf">Report</a>
+<a class="button" target="_blank" href="https://www.amazon.com/Fundamentals-Paper-Construction-Parker-Ruth/dp/0692523200/">Book</a>
+
+<h1 "quantum-spot-acadmy"> Quantum Spot Academy </h1>
+<div class="wrapper">
+  <div class="h_iframe">
+    <!-- a transparent image is preferable -->
+	<img class='ratio' src="../imgs/placeholder16x9.png">
+    <iframe src="https://www.youtube.com/embed/4yH6lUPp1bU?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<p>
+	The mission of Quantum Spot Academy is to provide the inspiration,
+	resources, and environment for students to develop an interest in physics
+	and explore it for fun. I launched this initiative to promote interest in
+	physics by providing conceptual introductions to modern physics topics. I
+	wrote, filmed, animated, and published a series of seven 15-minute
+	educational videos on topics ranging from antimatter to black holes. I
+	presented this work at the 2016 annual meeting of the Pacific Northwest
+	Association for College Physics.
+</p>
+<a class="button" target="_blank" href="http://quantumspotacademy.org">Website</a>
+
+
+</body>
+<footer>
+	&copy
+	<script type="text/javascript">
+	document.write(new Date().getFullYear());
+	</script>
+	Parker Ruth
+	<br>
+	I handcrafted this site with HTML and CSS
+</footer>
+</html>
