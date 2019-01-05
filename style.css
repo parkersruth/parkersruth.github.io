@@ -181,7 +181,7 @@ footer {
 }
 
 
-.myname {
+.myname, .myname-hover {
   display: inline-block;
 	font-family: "HelveticaNeue-Thin";
 	font-size: 50px;
