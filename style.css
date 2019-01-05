@@ -261,3 +261,17 @@ sup, sub {
 sub {
   top: 0.4em;
 }
+
+
+.fish-tank {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.fish {
+  width: 75px;
+  visibility: hidden;
+}
+.fish-tank:hover .fish {
+  visibility: visible;
+}
