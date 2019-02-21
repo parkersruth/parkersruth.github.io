@@ -14,8 +14,8 @@
 * {
   padding: 0;
   margin: 0;
-  animation-duration: 0.2s;
-  transition: 0.2s;
+  /* animation-duration: 0.2s;
+  transition: 0.2s; */
 }
 
 body {
@@ -66,6 +66,8 @@ a {
   /* color: var(--dark-grey); */
   text-decoration: none;
   /* font-weight: bolder; */
+  animation-duration: 0.2s;
+  transition: 0.2s;
 }
 a:hover {
   color: var(--medium-grey);
