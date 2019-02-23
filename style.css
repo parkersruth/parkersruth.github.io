@@ -19,35 +19,36 @@
 }
 
 body {
-  font-family: "HelveticaNeue";
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
   max-width: var(--body-width);
   margin: auto;
   /* padding: 20px */
-  font-size: 15px;
 }
 
 h1 {
-  font-family: "HelveticaNeue-Thin";
-  font-weight: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
   font-size: 250%;
   margin-top: 1.5em;
   margin-left:1px;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   clear: left;
 }
 
 h2 {
-  font-family: "HelveticaNeue";
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
   font-size: 175%;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 h3 {
-  font-family: "HelveticaNeue";
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
   font-size: 150%;
-  margin-top: 1.75em;
+  margin-top: 1.25em;
 }
 
 .icon {
@@ -65,7 +66,6 @@ a {
   color: var(--happy-blue-dark);
   /* color: var(--dark-grey); */
   text-decoration: none;
-  /* font-weight: bolder; */
   animation-duration: 0.2s;
   transition: 0.2s;
 }
@@ -93,7 +93,7 @@ a.button {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-  font-weight: normal;
+  /* font-weight: normal; */
 
 }
 a.button:hover {
@@ -185,15 +185,13 @@ footer {
 
 .myname, .myname-hover {
   display: inline-block;
-	font-family: "HelveticaNeue-Thin";
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
 	font-size: 50px;
   color: inherit;
-	letter-spacing: 3px;
-	font-weight: normal;
   margin-top: 0.5em;
   margin-bottom: 0.3em;
   text-decoration: none;
-  letter-spacing: 3px;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -236,8 +234,9 @@ footer {
 	padding: 14px 16px;
 	text-decoration: none;
   color: inherit;
-  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
+  font-size: 16px;
 }
 .imhere a {
 	color: var(--happy-blue);
