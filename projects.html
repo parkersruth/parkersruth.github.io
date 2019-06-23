@@ -24,21 +24,27 @@
 
 
 <h1 id="heart-monitor"> Mobile Heart Monitor </h1>
-<img src="imgs/ecg_monitor.jpg" class='right' draggable="false">
+<!-- <img src="imgs/ecg_monitor.jpg" class='right' draggable="false"> -->
+<div class="wrapper">
+  <div class="h_iframe">
+    <!-- a transparent image is preferable -->
+	<img class='ratio' src="imgs/placeholder16x9.png">
+    <iframe src="https://www.youtube.com/embed/2Cl74h4Dp7Y?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 <p>
 	As a final project for CSE 474, I built a mobile heart monitor prototype
 	made from commodity hardware components. The electrocardiogram (ECG)
-	measured from the thumbs placed on two metal electrodes is displayed on a
+	measured from the fingers placed on two metal electrodes is displayed on a
 	touchscreen. The P wave and QRS complex are detected and annotated in
-	real-time. ECG abnormalities are detected and interpreted as potential
+	real-time. ECG abnormalities are identified and interpreted as potential
 	heart maladies such as arrhythmia, premature ventricular contraction,
 	and heart block. After a 30-second measurement, the user can review the
-	trace and cardio health summary. The device also connects over Bluetooth to
-	a smartphone using industry-standard GATT commands. For this project I
-	hard-coded a bank of IIR filters in C++ to perform real-time signal
-	processing and event detection, interfaced with peripherals through SPI and
-	I<sup>2</sup>C protocols, and built event-based control flow for user
-	interaction.
+	trace and cardiac health summary. The device also connects over Bluetooth to
+	a smartphone using standard GATT transactions. For this project I
+	hard-coded an IIR filter bank in C++ to perform real-time signal
+	processing and event detection, interfaced with peripherals through the SPI
+	protocol, and built event-based control flow for user interaction.
 </p>
 <a class="button" target="_blank" href="docs/ecg_monitor.pdf">Report</a>
 
@@ -49,6 +55,7 @@
 	<img class='ratio' src="imgs/placeholder16x9.png">
     <iframe src="https://www.youtube.com/embed/N-jZSdn5gtY?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
+</div>
 <p>
 	Amorphous computing explores the ways that distributed computing nodes with
 	individually limited capacity can collectively and asynchronously perform
@@ -60,10 +67,10 @@
 	Inspired by amorphous computing literature, this project presents Pinguin,
 	an amorphous computing simulator and development environment. I designed a
 	domain-specific language called Ping and implemented a source-to-source
-	compiler into javascript to make amorphous code editable in a web browser.
+	compiler into JavaScript to make amorphous code editable in a web browser.
 	The user can interact with the amorphous simulation as it updates thousands
-	of cells at 60 fps. I also wrote and produced an educational video to
-	raise awareness of this topic.
+	of cells at 60 frames per second. I also wrote and produced an educational
+	video to raise awareness of this topic.
 </p>
 <a class="button" target="_blank" href="https://parkersruth.github.io/amorphous/">Website</a>
 
@@ -71,16 +78,16 @@
 <h1 id="vadernet"> VaderNet </h1>
 <img src="imgs/vadernet.jpg" class='inline' draggable="false">
 <p>
-	VaderNet is a deep neural network based on AlexNet that can classify Star
-	Wars characters. I prepared a labeled dataset with over 300 images from five
-	classes using a Google Chrome extension to download top image search
-	results. Since this dataset was too small to train a model from scratch, I
-	used the pre-trained AlexNet for network architecture and weight
-	initialization. I modified and re-trained the last fully connected layer to
-	map high-level features to the new Star Wars character classes. The
-	resulting convolutional neural network has an accuracy of 98% on held-out
-	testing data. I also generated DeepDream-style network output to visualize
-	the learned classes.
+	VaderNet is a deep neural network based on the AlexNet architecture that can
+	classify Star Wars characters. I prepared a labeled dataset with over 300
+	images from five classes using a Google Chrome extension to download top
+	image search results. Since this dataset was too small to train a model from
+	scratch, I used a transfer learning approach, initializing the network with
+ 	AlexNet weights trained on ImageNet, and I modified and re-training the last
+	fully connected layer to map high-level features to the new Star Wars
+	character classes. The resulting convolutional neural network has an
+	accuracy of 98% on held-out testing data. I also generated DeepDream-style
+	network output to visualize the learned classes.
 </p>
 <!-- <a class="button" target="_blank" href="vadernet.html">More</a> -->
 <a class="button" target="_blank" href="docs/vadernet.pdf">Report</a>
