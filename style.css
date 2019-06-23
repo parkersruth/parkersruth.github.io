@@ -267,7 +267,7 @@ sub {
 .fish-tank {
   position: absolute;
   bottom: 50px;
-  left: 50px;
+  right: 50px;
 }
 .fish {
   width: 75px;
