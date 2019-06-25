@@ -124,13 +124,13 @@ img.inline {
 }
 img.right {
   max-width: 300px;
-  max-height: 325px;
+  max-height: 320px;
   float: right;
   margin: 0px 0px 25px 25px;
 }
 img.left {
   max-width: 300px;
-  max-height: 325px;
+  max-height: 320px;
   float: left;
   margin: 0px 25px 25px 0px;
 }
