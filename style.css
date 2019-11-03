@@ -77,7 +77,6 @@ a.button {
   display: inline-block;
   text-decoration: none;
   outline: none;
-  background-color: #FFFFFF;
   color: var(--happy-blue);
   border: 2px solid var(--happy-blue);
   border-radius: 5px;
@@ -98,7 +97,6 @@ a.button {
 }
 a.button:hover {
   background-color: var(--happy-blue);
-  color: #FFFFFF;
 }
 
 
@@ -202,7 +200,6 @@ footer {
 .navbar {
   /* position: sticky; */
   top: 0;
-  background-color: white;
 	list-style-type: none;
 	overflow: hidden;
 	text-align: justify;
@@ -225,7 +222,6 @@ footer {
 	width: 144px;
 	float: left;
   text-align: center;
-  border-bottom: 2px solid #FFFFFF;
   margin: 0px 6px;
 }
 .navlink a {
@@ -264,15 +260,49 @@ sub {
 }
 
 
-.fish-tank {
+.fishbtn-container {
+  /* z-index: +2; */
   position: absolute;
   bottom: 50px;
   right: 50px;
 }
 .fish {
   width: 75px;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
-.fish-tank:hover .fish {
+/* .fish-tank:hover .fish {
+  visibility: visible;
+} */
+#fishbtn {
+  visibility: hidden;
+  /* background-color: white; */
+  background-color: transparent;
+  border-radius: 2em;
+  outline: none;
+  shadow: none;
+  border: none;
+  cursor: pointer;
+}
+#fishbtn[fishy=true] {
+  background-color: var(--light-grey);
   visibility: visible;
 }
+.fishbtn-container:hover #fishbtn {
+  visibility: visible;
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+}
+/* #particle-js[fishy=false] {
+  visibility: hidden;
+}
+#particle-js[fishy=true] {
+  visibility: visible;
+} */
