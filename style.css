@@ -41,7 +41,7 @@ h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
   font-size: 175%;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 h3 {
@@ -64,6 +64,10 @@ p {
   line-height: 150%;
   margin-top: 0.5em;
   text-align: justify;
+}
+
+b {
+  font-weight: bold;
 }
 
 a {

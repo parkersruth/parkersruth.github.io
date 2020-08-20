@@ -25,42 +25,36 @@
 
 <body>
 
-<h1> UbiComp Lab </h1>
+<h1> Mobile Health Systems </h1>
 
-<h2> Continuous Blood Pressure Sensing </h2>
-<img src="imgs/facemask.svg" class='inline' height=300px draggable="false">
+<h3> Smartphone-Based Ischemic Stroke Screening </h3>
 <p>
-	Blood pressure can drop to dangerously low levels during anesthetized
-	surgeries, motivating the need for accurate and continuous measurement of
-	blood pressure. However, brachial cuffs provide periodic and error-prone
-	readings. I am currently leading an effort to implement a face-worn sensor
-	array to measure blood pressure non-invasively and continuously during
-	anesthetized surgeries. After designing and fabricating the device, I am
-	now preparing to conduct a validation study with synchronized recordings from my
-	device alongside the vital signs from existing surgical patient monitors. I
-	am working closely with a clinical collaborator from UW Medicine, as well as
-	mentoring two undergraduate students on this project. I presented this work
-	at UW's 2020 Undergraduate Research Symposium.
-</p>
-<p>
-	This work was accepted on April 10, 2020 to the <i>EMBC 2020</i> conference.
+	Every year over forty thousand strokes are caused by internal carotid stenosis
+	in the US alone. Although these strokes are preventable with endarterectomy,
+	most cases go undetected. We hypothesize that it is possible to
+	detect the presence of internal carotid stenosis by measuring pulse delay
+	to the face in a rapid, non-invasive smartphone-based test. I am currently
+	developing signal processing algorithms for robustly extracting pulse delay
+	from facial images. This system will be tested in collaboration with
+	colleagues in bioengineering and vascular surgery at University of Washington Medicine.
 </p>
 
-<h2> Mobile Sonar Exercise Sensing </h2>
-<div class="wrapper">
+<h3> Mobile Ultrasonic Sonar Exercise Sensing </h3>
+<!-- <div class="wrapper">
   <div class="h_iframe">
-    <!-- a transparent image is preferable -->
 	<img class='ratio' src="imgs/placeholder16x9.png">
     <iframe src="https://www.youtube.com/embed/DM-OynIeBy0?color=white&rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
-</div>
+</div> -->
+<img src="imgs/sonar_study.svg" class='inline' draggable="false">
 <p>
 	Physical inactivity is the fourth leading risk factor for death worldwide,
 	and yet eighty percent of US adults do not meet national exercise
 	recommendations. In collaboration with the
 	<a href="https://thesportsinstitute.com/" target="_blank">Sports Institute at UW Medicine</a>,
 	the UbiComp Lab is designing a smartphone application that can be prescribed
-	to patients at UWMC clinics. We believe that physical activity is a vital
+	to patients at University of Washington Medicine clinics. We believe that
+	physical activity is a vital
 	sign that should be monitored closely alongside blood pressure and BMI. Our
 	application will assist in goal setting, provide context-aware nudges, and
 	connect exercise data with health care providers. To extend the
@@ -69,14 +63,19 @@
 	mentoring two high school interns who are assisting with data collection
 	and analysis.
 </p>
-<a class="button" target="_blank" href="docs/doppler_exercise_poster.pdf">Poster</a>
+<p>
+	I submitted this work as primary author to the <i>Proceedings of the ACM on Interactive,
+	Wearable, Mobile, and Ubiquitous Technologies (IMWUT)</i> on August 15, 2020.
+</p>
+<!-- <a class="button" target="_blank" href="docs/doppler_exercise_poster.pdf">Poster</a>
+<a class="button" target="_blank" href="https://youtu.be/DM-OynIeBy0">Video</a> -->
+<!-- <a class="button" target="_blank" href="https://homes.cs.washington.edu/~psr23/sonar/instructions.php?id=000">Website</a> -->
 <p></p>
 
 <img src="imgs/osteoapp.gif" class='right' draggable="false">
-<h2> Smartphone Osteoporosis Screening </h2>
+<h3> Ubiquitous Non-Invasive Osteoporosis Screening </h3>
 <p>
-	I led a project with the goal of detecting osteopososis using sensors in a
-	smartphone. Osteoporosis is characterized by a decrease in bone mass density
+	Osteoporosis is characterized by a decrease in bone mass density
 	(BMD) causing millions of fractures annually. The clinical standard for
 	measuring BMD requires  radiation, access to expensive equipment, and
 	trained staff, motivating the need for a low-cost and ubiquitous alternative.
@@ -84,38 +83,40 @@
 	to infer bone mass density by measuring resonant frequency in a human tibia
 	using the built-in accelerometer. I tested this system alongside a low-noice
 	accelerometer data collection system I built with patients from local
-	retirement communities as well as a control group at UW, and performed
-	signal processing and data analysis in Python. I presented this work at UW's
-	2019 Undergraduate Research Symposium.
+	retirement communities as well as a control group of healthy volunteers, and performed
+	signal processing and data analysis in Python. I presented this work at the
+	2019 University of Washington Undergraduate Research Symposium.
 </p>
 <a class="button" target="_blank" href="docs/osteoapp_poster.pdf">Poster</a>
 
-<h2> Smartphone Pulse Transit Time Sensing </h2>
+<h3> Real-time Smartphone Pulse Transit Time Measurement </h3>
 <img src="imgs/seismo.jpg" class='inline' height=300px draggable="false">
 <p>
-	I implemented a smartphone application for real-time pulse transit time
-	(PTT) measurement using solely smartphone hardware. PTT is the time
-	differential between the heartbeat and the arrival of the pulse pressure
-	wave at the fingertip. Since PTT is inversely correlated with blood
-	pressure, this provides an opportunity to perform noninvasive and continuous
-	monitoring of blood pressure using commodity devices.
+ 	Pulse transit time (PTT) is the time differential between the heartbeat and
+	the arrival of the pulse pressure wave at the fingertip. Since PTT is
+	indicative of arterial stiffness, it can provide an early sign of
+	atheroscloerosis and cardiovascular disease.
+	Additionally, PTT is inversely correlated with blood pressure, providing an
+	opportunity to perform noninvasive estimation of of blood pressure using
+	commodity devices.
 	<a href='https://ubicomplab.cs.washington.edu/pdfs/seismo.pdf' target='_blank'>
 	Prior work</a> from my lab proposed the use of smartphones to measure PTT;
-	I built upon this work by implementing the sensing, signal processing, and
-	visualization code for the Android smartphone platform. I presented this
-	work at an annual technology CEO summit held at the Paul G. Allen School,
-	the school’s 2018 Industry Affiliates Research Day, and UW's 2018
+	I built upon this work by
+	implementing a smartphone application that can perform real-time sensing,
+	signal processing, and visualization code for the Android smartphone
+	platform. I presented this work within the Paul G. Allen School of Computer
+	Science & Engineering at an annual technology CEO summit and the 2018 Industry
+	Affiliates Research Day, as well as the 2018 University of Washington
 	Undergraduate Research Symposium.
 </p>
 <a class="button" target="_blank" href="docs/seismo_poster.pdf">Poster</a>
 <a class="button" target="_blank" href="https://github.com/ubicomplab/Seismo">Code</a>
 
 
-<h2> Smartphone Sleep Apnea Detection </h2>
+<h3> Smartphone Sleep Apnea Detection </h3>
 <p>
-	I contributed to a project evaluating the feasibility of testing for sleep
-	apnea using smartphone hardware.
-
+	<!-- I contributed to a project evaluating the feasibility of testing for sleep
+	apnea using smartphone hardware. -->
 	When a patient with obstructive sleep apnea stops breathing during sleep,
 	the sympathetic nervous system becomes activated in response to the
 	interrupted respiration; this sympathetic drive persists during wakefulness.
@@ -129,8 +130,80 @@
 	timing features.
 </p>
 
-<h1> Lutz Lab </h1>
-<h2 id='ola-simple'> Computer Vision for HIV Drug Resistance Testing </h2>
+<h1> Wearable Physiological Sensing </h1>
+
+<h3> Earbud Physiological Sensing </h3>
+<img src="imgs/earbud_phys.svg" class='right' height=150px draggable="false">
+<p>
+	With wireless earbuds becoming increasingly powerful and widely used,
+	we recognize an opportunity to leverage them as a platform for performing
+	continuous physiological measurements. Modern earbuds can contain acoustic,
+	inertial, optical, and proximity sensors that may be re-purposed to track
+	vital signs and perform diagnostics.
+	My contribution to this work is prototyping signal processing techniques
+	for in-ear physiological sensing, in addition to advising and supporting study
+	design, data collection, data analysis, and paper writing.
+</p>
+
+<h3> Wearable Sensing for Postural Orthostatic Tachycardia Syndrome </h3>
+<p>
+	Postural Orthostatic Tachycardia Syndrome (POTS) is a rare condition
+	associated with dysregulation of the cardiovascular system. Our project aims
+	to build and test a wearable system to quantify changes in hemodynamics
+	to help individuals with POTS detect and prevent onset of hypotensive syncope.
+	I support this work by advising on embedded systems, signal processing,
+	and study design, in addition to exploring possible physiological mechanisms
+	for this rare syndrome.
+</p>
+
+<h3> Multi-Channel Facial Photoplethysmography </h3>
+<img src="imgs/facemask.svg" class='inline' height=300px draggable="false">
+<p>
+	The face provides a very unique opportunity for performing physiological
+	sensing using wearables and camera-based systems. Measuring the vascular
+	network in the face may enable disease diagnosis and continuous monitoring.
+	A powerful and widely used technique for facial sensing is photoplethysmography (PPG),
+	an non-invasive optical measurment of blood pulses. However, facial PPG
+	remains under-explored in terms of both signal acquisition and analysis.
+	To characterize the timing and morphological features of facial PPG
+	waveforms I designed, built, and tested a multi-channel facial PPG sensing
+	system that can record synchronized pulse waveforms at multiple locations
+	and optical wavelengths.
+	I work closely with a clinical collaborator from University of Washington Medicine,
+	in addition to
+	mentoring two undergraduate students on this project.
+</p>
+<p>
+	I presented this work in July 2020 at the <i>EMBC 2020</i> conference.
+</p>
+<!-- <a class="button" target="_blank" href="https://embs.papercept.net/proceedings/EMBC20/1258_FP.mp4">Talk</a> -->
+
+<h1> Population Health and Assay Automation </h1>
+
+<h3> SARS-CoV-2 Screening in Public Transportation Air Filtration </h3>
+<p>
+	Motivated by the need for population level monitoring of COVID-19 transmission,
+	the UbiComp lab is working in partnership with Microsoft Research to develop
+	protocols for obtaining environmental samples from public transportation
+	air filtration systems to detect the presence of SARS-CoV-2. I support efforts
+	by advising on study design, performing literature review, coordinating with
+	collaborators, and participating in paper writing.
+</p>
+
+<h3> Streamlining SARS-CoV-2 Molecular Assays </h3>
+<p>
+	Detecting and mitigating outbreaks of COVID-19 requires rapid and high
+	throughput testing, disproportionately impacting regions with limited access
+	to reagents, supplies, and trained staff. I am working with
+	bioengineering collaborators who are developing and testing faster and simpler COVID-19
+	protocols by performing direct amplification, bypassing the RNA extraction
+	step. My contribution to this work is creating image processing algorithms for
+	quantifying output fluorescence to reduce time and human error for point-of-care
+	COVID-19 testing applications. This system is currently being tested at clinical
+	facilities in the US and Zimbabwe.
+</p>
+
+<h3 id='ola-simple'> Computer Vision for HIV Drug Resistance Testing </h3>
 <img style="width: 600px;" src="imgs/ola-simple.jpg" class='inline' draggable="false">
 <p>
 	Testing for drug resistant strains of HIV is necessary for clinicians to
@@ -140,36 +213,37 @@
 	OLA-Simple is a low-cost paper-based lateral flow strip test and chemistry
 	kit that can be used to amplify and detect low amounts of drug-resistant
 	strains of HIV. Five common drug-resistant mutations can be visualized as
-	colored bands on a paper strip; however, human error limited the
-	sensitivity and specificity of this test. I built computer vision code to
+	colored bands on a paper strip; however, human error limits the
+	sensitivity and specificity of this test when interpreted by eye. I built
+	computer vision code to
 	read flatbed scanner images, isolate paper strips, and measure the band
 	intensities to interpret the test results. I used this code to generate data
 	for major tables and figures in the paper for this project, and performed an
 	evaluation with training and testing datasets that demonstrated over 99%
-	accuracy. I presented my my work to collaborating clinicians, professors,
+	accuracy. I presented my work to collaborating clinicians, professors,
 	and students at regular project meetings.
 </p>
 <!-- <a class="button" target="_blank" href="">Paper</a> -->
 <!-- <a class="button" target="_blank" href="">Poster</a> -->
 <a class="button" target="_blank" href="https://www.thelancet.com/article/S2352-3964(19)30743-1/fulltext">Paper</a>
-<!-- <a class="button" target="_blank" href="http://dx.doi.org/10.1097%2FQAD.0000000000002524">Paper</a> -->
-<a class="button" target="_blank" href="https://journals.lww.com/aidsonline/Abstract/publishahead/Near_point_of_care,_point_mutation_test_to_detect.96710.aspx">Paper</a>
-<a class="button" target="_blank" href="https://homes.cs.washington.edu/~psr23/ola/">Website</a>
+<a class="button" target="_blank" href="https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx">Paper</a>
+<!-- <a class="button" target="_blank" href="https://homes.cs.washington.edu/~psr23/ola/">Website</a> -->
 
-<h1 id='klavins'> Klavins Lab </h1>
-<h2 id='aquarium'> Synthetic Biology Lab Automation </h2>
+<!-- <h1 id='klavins'> Klavins Lab </h1> -->
+
+<h3 id='aquarium'> Synthetic Biology Lab Automation </h3>
+<img src="imgs/cnidaria.svg" class='right' height=200px draggable="false">
 <p>
-	I worked with a biologist to translate written synthetic biology protocols
-	into code for the
+	I worked with a biology graduate student to translate written synthetic
+	biology protocols into code for the
 	<a href="http://www.aquarium.bio/" target="_blank"> Aquarium </a>
 	lab automation system. This work supported a
 	multi-institutional collaboration aiming to examine neural net regeneration
-	in Hydra, small freshwater Cnidaria organisms with the ability to regenerate
-	from disaggregated cell masses. I formalized and quantified experimental
-	workflows for both husbandry and transgenics (i.e. genetic modification)
-	protocols, creating appropriate algorithms and data management schemes to
-	perform high-throughput experiments. I also supported experimentation with
-	different experimental parameters to optimize DNA transfection efficiency.
+	in <i>Hydra</i>, small freshwater organisms with the ability to reform
+	from disaggregated cell masses. I formalized and quantified synthetic biology
+	workflows for both husbandry and transgenics protocols, creating appropriate
+	algorithms and data management schemes to perform high-throughput experiments
+	and optimize DNA transfection efficiency.
 </p>
 
 </body>

@@ -43,7 +43,7 @@
 	and heart block. After a 30-second measurement, the user can review the
 	trace and cardiac health summary. The device also connects over Bluetooth to
 	a smartphone using standard GATT transactions. For this project I
-	hard-coded an IIR filter bank in C++ to perform real-time signal
+	implemented a custom IIR filter in C++ to perform real-time signal
 	processing and event detection, interfaced with peripherals through the SPI
 	protocol, and built event-based control flow for user interaction.
 </p>
@@ -52,9 +52,9 @@
 <h1 id="amat"> Apple Messages Analytics Toolbox </h1>
 <img src="imgs/amat.jpg" class='inline' draggable="false">
 <p>
-	The Apple Messages Analytics Toolbox (AMAT) is a collection of open source
-	Python tools for extracting and visualizing data from Apple Messages. The
-	toolkit includes code to convert the Messages application's SQLite chat
+	The Apple Messages Analytics Toolbox is a collection of open source
+	Python methods for extracting and visualizing data from Apple Messages. The
+	toolbox includes code to convert the Messages application's SQLite chat
 	database to a pandas DataFrame object as well as convenient methods for
 	visualizing the chat data with resampled time series, pie charts, and
 	temporal heatmaps. The code also exports chat dialogues as styled HTML
@@ -95,7 +95,7 @@
 	images from five classes using a Google Chrome extension to download top
 	image search results. Since this dataset was too small to train a model from
 	scratch, I used a transfer learning approach, initializing the network with
- 	AlexNet weights trained on ImageNet, and I modified and re-trained the last
+ 	AlexNet weights trained on ImageNet. I modified and re-trained the last
 	fully connected layer to map high-level features to the new Star Wars
 	character classes. The resulting convolutional neural network has an
 	accuracy of 98% on held-out testing data. I also generated DeepDream-style
@@ -113,7 +113,7 @@
   </div>
 </div>
 <p>
-	Playing with simple constructive toys has been correlated with improved
+	Playing with simple constructive toys has been associated with improved
 	visual-spatial reasoning, mathematical and problem solving abilities,
 	language acquisition, social skills, and creativity. Paper cups are an ideal
 	play medium, striking a unique balance of artistic flexibility and physical
