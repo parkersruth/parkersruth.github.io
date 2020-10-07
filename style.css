@@ -109,11 +109,34 @@ a.button:hover {
 }
 
 
-ul, ol {
+ul {
   margin-top: 0.5em;
   line-height: 150%;
   padding-left: 20px;
 }
+ol {
+  /* padding-left: 10px; */
+  padding-left:5px;
+  margin-left:0px;
+  line-height: 150%;
+  counter-reset: item -1;
+  font-size: 12px;
+}
+ol > li {
+  display: block;
+}
+ol > li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+ol > li {
+  font-weight: bold;
+}
+ol > li > ol > li {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
 
 img {
   display: block;
@@ -141,6 +164,73 @@ img.left {
   float: left;
   margin: 0px 25px 25px 0px;
 }
+img.display {
+  max-width: 100%;
+  max-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 25px; */
+}
+img.display-half {
+  display: inline-block;
+  max-width: 47%;
+  max-height: 50vh;
+  margin: 25px 0px 25px 0px;
+  margin: 1%;
+}
+img.display-full {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+td {
+  padding: 0px 10px 0px 10px;
+}
+
+.caption {
+  color: var(--dark-grey);
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--dark-grey);
+  margin-bottom: 10em;
+}
+.supercaption {
+  color: var(--dark-grey);
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--dark-grey);
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+
+
+
+.title {
+  display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  color: inherit;
+  margin-top: 1em;
+  /* margin-bottom: 0.3em; */
+  text-decoration: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.subtitle {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
+  font-size: 212%;
+  margin-bottom: 0.5em;
+}
+.author {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 120%;
+}
+
 
 .wrapper {
   width: 100%;
@@ -169,6 +259,7 @@ pre {
   border-radius: 5px;
   background-color: #f3f3f3;
   padding: 1em;
+  overflow: scroll;
 }
 pre:first-line {
     line-height: 0px;
