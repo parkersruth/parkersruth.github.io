@@ -1,0 +1,46 @@
+.fishbtn-container {
+  /* z-index: +2; */
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+.fish {
+  width: 75px;
+  /* visibility: hidden; */
+}
+/* .fish-tank:hover .fish {
+  visibility: visible;
+} */
+#fishbtn {
+  visibility: hidden;
+  /* background-color: white; */
+  background-color: transparent;
+  border-radius: 2em;
+  outline: none;
+  shadow: none;
+  border: none;
+  cursor: pointer;
+}
+#fishbtn[fishy=true] {
+  background-color: var(--light-grey);
+  visibility: visible;
+}
+.fishbtn-container:hover #fishbtn {
+  visibility: visible;
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+}
+/* #particle-js[fishy=false] {
+  visibility: hidden;
+}
+#particle-js[fishy=true] {
+  visibility: visible;
+} */
