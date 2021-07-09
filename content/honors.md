@@ -76,8 +76,7 @@ Awarded by the UW Allen School for departmental honors thesis.
 {{< award_date "April 2021" >}}
 
 ### College of Engineering Dean's Medal for Academic Excellence
-
-One of two students recognized by the college's highest honor
+One of two students recognized by the College of Engineering's highest honor
 
 
 
