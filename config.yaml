@@ -1,0 +1,24 @@
+baseURL: https://parkersruth.github.io/
+languageCode: en-us
+title: Parker Ruth
+
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 1
+    - name: Research
+      url: /research
+      weight: 2
+    - name: Projects
+      url: /projects
+      weight: 3
+    - name: Teaching
+      url: /teaching
+      weight: 4
+    - name: Leadership
+      url: /leadership
+      weight: 5
+    - name: Honors
+      url: /honors
+      weight: 6

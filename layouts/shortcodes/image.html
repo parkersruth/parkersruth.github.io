@@ -1,0 +1,6 @@
+
+<img src = '/img/{{ .Get "src" }}'
+     alt = '{{ .Inner }}'
+     class = '{{ if .Get "class" }}{{ .Get "class" }}{{ else }} inline {{ end }}'
+     {{if .Get "height"}} height = {{ .Get "height" }} {{ end }}
+     draggable = "false">
