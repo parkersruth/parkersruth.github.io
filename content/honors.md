@@ -88,7 +88,7 @@ Awarded annually to 100 UW students for making the most of their Husky experienc
 
 {{< award_date "January 2020" >}}
 
-### Mary Gates Research Scholar
+### Mary Gates Research Scholarship
 Awarded for work on facial photoplethysmography sensing
 
 
@@ -124,19 +124,19 @@ Awarded for work on OsteoApp research
 
 
 {{< award_date "March 2018" >}}
-### Mary Gates Research Scholar </h3>
+### Mary Gates Research Scholarship
 Awarded for ubiquitous sleep apnea sensing research
 
 
 
 {{< award_date "March 2018" >}}
-### Mary Gates Leadership Scholar
+### Mary Gates Leadership Scholarship
 Awarded for leadership of BioExplore initiative
 
 
 
 {{< award_date "May 2017" >}}
-### Mary Gates Achievement Scholar
+### Mary Gates Achievement Scholarship
 Annual award for a rising sophomore in the Interdisciplinary Honors Program
 
 
