@@ -56,7 +56,7 @@ The user can interact with the amorphous simulation as it updates thousands
 of cells at 60 frames per second. I also wrote and produced an educational
 video to raise awareness of this topic.
 
-{{< button Website "https://parkersruth.github.io/amorphous" >}}
+{{< button Website "https://parkersruth.com/amorphous" >}}
 
 
 
