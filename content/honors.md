@@ -61,7 +61,7 @@ Awarded for academic merit
 
 ### Outstanding Senior Award
 
-Awarded by the UW Allen School for academics, research, leadership, and citizenship.
+Awarded by the UW Allen School for academics, research, leadership, and citizenship
 
 
 
@@ -69,7 +69,7 @@ Awarded by the UW Allen School for academics, research, leadership, and citizens
 
 ### Best Senior Thesis Award
 
-Awarded by the UW Allen School for departmental honors thesis.
+Awarded by the UW Allen School for departmental honors thesis
 
 
 
