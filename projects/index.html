@@ -1,5 +1,39 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>Projects</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/fonts/nunito_sans/nunito_sans.css><link rel=stylesheet href=/fonts/open_sans/open_sans.css><link href=fonts/fontawesome/css/all.css rel=stylesheet><link rel=icon type=image/svg href=/img/fish.svg><link rel="shortcut icon" type=image/svg href=/img/fish.svg></head><body><header><center><a class=myname href=https://parkersruth.com/>Parker Ruth</a></center><nav><ul class=navbar><li class=navlink><a href=/>About</a></li><li class=navlink><a href=/research>Research</a></li><li class="navlink imhere"><a href=/projects>Projects</a></li><li class=navlink><a href=/teaching>Teaching</a></li><li class=navlink><a href=/leadership>Leadership</a></li><li class=navlink><a href=/honors>Honors</a></li></ul></nav></header><main><h1 id=mobile-heart-monitor>Mobile Heart Monitor</h1><div class=wrapper><div class=h_iframe><img class=ratio src=/img/placeholder16x9.png>
-<iframe src="https://www.youtube.com/embed/2Cl74h4Dp7Y?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div><p>As a final project for CSE 474, I built a mobile heart monitor prototype
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>Projects</title>
+<link rel=stylesheet href=/css/style.css>
+<link rel=stylesheet href=/fonts/nunito_sans/nunito_sans.css>
+<link rel=stylesheet href=/fonts/open_sans/open_sans.css>
+<link href=fonts/fontawesome/css/all.css rel=stylesheet>
+<link rel=icon type=image/svg href=/img/fish.svg>
+<link rel="shortcut icon" type=image/svg href=/img/fish.svg>
+</head>
+<body>
+<header>
+<center><a class=myname href=https://parkersruth.com/>Parker Ruth</a></center>
+<nav>
+<ul class=navbar>
+<li class=navlink><a href=/>About</a></li>
+<li class=navlink><a href=/research>Research</a></li>
+<li class="navlink imhere"><a href=/projects>Projects</a></li>
+<li class=navlink><a href=/teaching>Teaching</a></li>
+<li class=navlink><a href=/leadership>Leadership</a></li>
+<li class=navlink><a href=/honors>Honors</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1 id=mobile-heart-monitor>Mobile Heart Monitor</h1>
+<div class=wrapper>
+<div class=h_iframe>
+<img class=ratio src=/img/placeholder16x9.png>
+<iframe src="https://www.youtube.com/embed/2Cl74h4Dp7Y?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<p>As a final project for CSE 474, I built a mobile heart monitor prototype
 made from commodity hardware components. The electrocardiogram (ECG)
 measured from the fingers placed on two metal electrodes is displayed on a
 touchscreen. The P wave and QRS complex are detected and annotated in
@@ -10,16 +44,28 @@ trace and cardiac health summary. The device also connects over Bluetooth to
 a smartphone using standard GATT transactions. For this project I
 implemented a custom IIR filter in C++ to perform real-time signal
 processing and event detection, interfaced with peripherals through the SPI
-protocol, and built event-based control flow for user interaction.</p><a class=button target=_blank href=/docs/ecg_monitor.pdf>Report</a><h1 id=apple-messages-analytics-toolbox>Apple Messages Analytics Toolbox</h1><img src=/img/amat.jpg alt="
+protocol, and built event-based control flow for user interaction.</p>
+<a class=button target=_blank href=/docs/ecg_monitor.pdf>Report</a>
+<h1 id=apple-messages-analytics-toolbox>Apple Messages Analytics Toolbox</h1>
+<img src=/img/amat.jpg alt="
 screenshot of toolbox code and output showing number of texts over time for each person
-" class=inline draggable=false><p>The Apple Messages Analytics Toolbox is a collection of open source
+" class=inline draggable=false>
+<p>The Apple Messages Analytics Toolbox is a collection of open source
 Python methods for extracting and visualizing data from Apple Messages. The
 toolbox includes code to convert the Messages application&rsquo;s SQLite chat
 database to a pandas DataFrame object as well as convenient methods for
 visualizing the chat data with resampled time series, pie charts, and
 temporal heatmaps. The code also exports chat dialogues as styled HTML
-documents for more convenient searching and previewing.</p><a class=button target=_blank href=https://github.com/parkersruth/amat>Code</a><h1 id=amorphous-computing>Amorphous Computing</h1><div class=wrapper><div class=h_iframe><img class=ratio src=/img/placeholder16x9.png>
-<iframe src="https://www.youtube.com/embed/N-jZSdn5gtY?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div><p>Amorphous computing explores the ways that distributed computing nodes with
+documents for more convenient searching and previewing.</p>
+<a class=button target=_blank href=https://github.com/parkersruth/amat>Code</a>
+<h1 id=amorphous-computing>Amorphous Computing</h1>
+<div class=wrapper>
+<div class=h_iframe>
+<img class=ratio src=/img/placeholder16x9.png>
+<iframe src="https://www.youtube.com/embed/N-jZSdn5gtY?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<p>Amorphous computing explores the ways that distributed computing nodes with
 individually limited capacity can collectively and asynchronously perform
 emergent global computations. Building better tools for designing amorphous
 algorithms can have implications for swarm robotics, grid computing, and
@@ -30,8 +76,16 @@ domain-specific language called Ping and implemented a source-to-source
 compiler into JavaScript to make amorphous code editable in a web browser.
 The user can interact with the amorphous simulation as it updates thousands
 of cells at 60 frames per second. I also wrote and produced an educational
-video to raise awareness of this topic.</p><a class=button target=_blank href=https://parkersruth.com/amorphous>Website</a><h1 id=paper-cup-construction>Paper Cup Construction</h1><div class=wrapper><div class=h_iframe><img class=ratio src=/img/placeholder16x9.png>
-<iframe src="https://www.youtube.com/embed/4oVxz8TCvd4?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div><p>Playing with simple constructive toys has been associated with improved
+video to raise awareness of this topic.</p>
+<a class=button target=_blank href=https://parkersruth.com/amorphous>Website</a>
+<h1 id=paper-cup-construction>Paper Cup Construction</h1>
+<div class=wrapper>
+<div class=h_iframe>
+<img class=ratio src=/img/placeholder16x9.png>
+<iframe src="https://www.youtube.com/embed/4oVxz8TCvd4?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<p>Playing with simple constructive toys has been associated with improved
 visual-spatial reasoning, mathematical and problem solving abilities,
 language acquisition, social skills, and creativity. Paper cups are an ideal
 play medium, striking a unique balance of artistic flexibility and physical
@@ -43,18 +97,37 @@ in keeping with research findings that the simplest toys can often be the
 most intellectually stimulating. Because early play with simple constructive
 toys has been correlated with later academic success, paper cups provide
 families and schools with a low-cost, creative, cooperative activity. They
-are also perfect for professional team building or icebreaker activities.</p><p>To promote the concept of paper cup construction, I produced a short video,
+are also perfect for professional team building or icebreaker activities.</p>
+<p>To promote the concept of paper cup construction, I produced a short video,
 created a website, compiled a technical report, and published a book on the
 topic. I periodically host paper cup construction activities at local
 educational venues. This project was recognized as an honorable mention in
-the <a href=https://www.davidsongifted.org/Fellows-Scholarship>Davidson Fellows Scholarship</a>.</p><p><a class=button target=_blank href=http://papercupconstruction.com>Website</a>
+the <a href=https://www.davidsongifted.org/Fellows-Scholarship>Davidson Fellows Scholarship</a>.</p>
+<p>
+<a class=button target=_blank href=http://papercupconstruction.com>Website</a>
 <a class=button target=_blank href=/docs/pcc_report.pdf>Report</a>
-<a class=button target=_blank href=https://www.amazon.com/Fundamentals-Paper-Construction-Parker-Ruth/dp/0692523200/>Book</a></p><h1 id=quantum-spot-academy>Quantum Spot Academy</h1><div class=wrapper><div class=h_iframe><img class=ratio src=/img/placeholder16x9.png>
-<iframe src="https://www.youtube.com/embed/4yH6lUPp1bU?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div><p>The mission of Quantum Spot Academy is to provide the inspiration,
+<a class=button target=_blank href=https://www.amazon.com/Fundamentals-Paper-Construction-Parker-Ruth/dp/0692523200/>Book</a>
+</p>
+<h1 id=quantum-spot-academy>Quantum Spot Academy</h1>
+<div class=wrapper>
+<div class=h_iframe>
+<img class=ratio src=/img/placeholder16x9.png>
+<iframe src="https://www.youtube.com/embed/4yH6lUPp1bU?color=white&rel=0&showinfo=0&modestbranding=1" frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+<p>The mission of Quantum Spot Academy is to provide the inspiration,
 resources, and environment for students to develop an interest in physics
 and explore it for fun. I launched this initiative to promote interest in
 physics by providing conceptual introductions to modern physics topics. I
 wrote, filmed, animated, and published a series of seven 15-minute
 educational videos on topics ranging from antimatter to black holes. I
 presented this work at the 2016 annual meeting of the Pacific Northwest
-Association for College Physics.</p><a class=button target=_blank href=http://quantumspotacademy.org>Website</a></main><footer>&copy; 2021 Parker Ruth<br></footer></body></html>
+Association for College Physics.</p>
+<a class=button target=_blank href=http://quantumspotacademy.org>Website</a>
+</main>
+<footer>
+&copy; 2021 Parker Ruth
+<br>
+</footer>
+</body>
+</html>
