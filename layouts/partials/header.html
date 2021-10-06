@@ -1,22 +1,3 @@
-<!-- <header>
-
-	<center><a class="myname" href="{{ .Site.BaseURL }}">Parker Ruth</a></center>
-
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul class='navbar'>
-			{{ range . }}
-			<li class='navlink'><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
-
-</header> -->
-
-
-
-
 <header>
 
 	<center><a class="myname" href="{{ .Site.BaseURL }}">Parker Ruth</a></center>
@@ -27,8 +8,6 @@
 	<nav>
 		<ul class='navbar'>
 			{{ range . }}
-			<!-- <li class='navlink'><a href="{{ .URL | relURL }}">{{ .Name }}</a></li> -->
-			<!-- <li class="navlink {{ if $currentPage.HasMenuCurrent "main" . }}imhere{{ end }}"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li> -->
 			<li class="navlink {{ if eq $currentPage.Name .Name }}imhere{{ end }}"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 			{{ end }}
 		</ul>
