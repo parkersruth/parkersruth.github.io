@@ -6,10 +6,14 @@ title: "Honors"
 
 # National Honors
 
+{{< award_date "January 2022" >}}
+### Hertz Fellowship Finalist
+One of 45 finalists for the most selective graduate fellowship in STEM.
+
+
+
 {{< award_date "April 2021" >}}
-
 ### Tau Beta Pi Fellowship
-
 $10,000 graduate research award
 
 
@@ -23,9 +27,7 @@ $138,000 award funding 3 years of graduate research
 
 
 {{< award_date "January 2021" >}}
-
 ### CRA Outstanding Undergraduate Research Award Finalist
-
 Awarded by Computing Research Association for ubiquitous computing research
 
 
