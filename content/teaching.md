@@ -20,8 +20,7 @@ a worked example from the textbook called inDUCKtor: asks the student to derive 
 
 I wrote a 140-page course textbook for BIOEN 316 Signals and Sensors for Bioengineers. Topics include biosignal acquisition, Fourier analysis, digital and analog filtering, and linear systems. All of the document's text, equations, and figures are typeset in pure LaTeX.
 
-{{< button Website "https://parkersruth.com/biosignal-processing" >}}
-{{< button Book "https://www.amazon.com/dp/B08KTSFWQ8" >}}
+{{< button Book "https://parkersruth.com/biosignal-processing" >}}
 
 ### Python for Chemists
 
