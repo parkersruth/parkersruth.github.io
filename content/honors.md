@@ -8,7 +8,7 @@ title: "Honors"
 
 {{< award_date "January 2022" >}}
 ### Hertz Fellowship Finalist
-One of 45 finalists for the most selective graduate fellowship in STEM.
+One of 45 finalists for the most selective graduate STEM fellowship
 
 
 
