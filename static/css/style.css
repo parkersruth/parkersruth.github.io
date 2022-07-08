@@ -297,8 +297,8 @@ footer {
 }
 .navlink {
   /* n*(width + margin-left + margin-right + 2 * border-width) = body width */
-  /* width: 144px; */
-  width: 121px;
+  width: 148px;
+  /* width: 121px; */;
 	float: left;
   text-align: center;
   margin: 0px 6px;

@@ -10,15 +10,12 @@ menu:
     - name: Research
       url: /research
       weight: 2
-    - name: Projects
-      url: /projects
-      weight: 3
     - name: Teaching
       url: /teaching
-      weight: 4
+      weight: 3
     - name: Leadership
       url: /leadership
-      weight: 5
+      weight: 4
     - name: Honors
       url: /honors
-      weight: 6
+      weight: 5
