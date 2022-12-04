@@ -101,7 +101,7 @@ air filtration systems to detect the presence of SARS-CoV-2. I support efforts
 by advising on study design, performing literature review, coordinating with
 collaborators, and participating in paper writing.
 
-{{< button Paper "https://www.medrxiv.org/content/10.1101/2021.06.02.21258184v1" >}}
+{{< button Paper "https://doi.org/10.1016/j.scitotenv.2021.152790" >}}
 
 
 ### Streamlining SARS-CoV-2 Molecular Assays
@@ -130,7 +130,7 @@ I built computer vision code to read flatbed scanner images, isolate paper strip
 
 {{< button Paper "https://www.thelancet.com/article/S2352-3964(19)30743-1/fulltext" >}}
 {{< button Paper "https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx" >}}
-{{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.06.21256654v1" >}}
+{{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
 
 ###  Near Point-of-Care Assay for HIV Drug Sensitivity
 
