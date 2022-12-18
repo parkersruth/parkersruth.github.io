@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-# Instruction
+# Course Instruction
 
 ### Ubiquitous Computing Seminar
 During the 2019&ndash;2020 academic year I led the CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.
@@ -32,15 +32,10 @@ I worked with a University of Washington chemistry professor to create Python pr
 
 {{< button Code "https://github.com/parkersruth/python-for-chemists" >}}
 
-### LTI Systems Commentary
+<!-- ### LTI Systems Commentary
 
 I worked with a University of Washington bioengineering professor to write a brief commentary on the definition of linear time-invariant systems with feedback to provide clarity on a subtle point in the BIOEN 326 Bioenginering Systems and Control course.
 
 {{< button Paper "https://arxiv.org/abs/1912.07830">}}
+-->
 
-
-# Service
-
-### Bioengineering Department Curriculum Committee
-
-I have volunteered as a student representative on the Bioengineering Department Curriculum Committee since Autumn 2018. I was selected to meet with evaluators for the 2019 ABET accreditation of UW Bioengineering and Computer Engineering programs.

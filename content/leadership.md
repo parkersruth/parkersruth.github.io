@@ -2,6 +2,8 @@
 title: "Leadership"
 ---
 
+
+
 # BioExplore
 
 {{< image src="bioexplore.svg" class="right">}}
@@ -23,16 +25,3 @@ I launched the Bioengineering Journal Club (BJC) to provide an inclusive venue f
 
 <!-- {{< button Website "http://uwbjc.wordpress.com" >}} -->
 
-
-# Pacific Northwest Brain Bee
-
-The International Brain Bee was founded in 1998 by Dr. Norbert Myslinski at
-the University of Maryland with the mission of inspiring generations of
-young students to pursue studies in neuroscience and related fields.
-The Pacific Northwest Brain Bee is a local chapter competition open to
-students in grades 9-12 from Washington, Oregon, and Idaho. After taking
-first place in the Pacific Northwest Brain Bee, I built a webpage for the
-competition and returned in 2017 and 2018 as a volunteer, encouraging
-students to learn about neuroscience in high school.
-
-<!-- {{< button Website "http://pnwbrainbee.wordpress.com" >}} -->
