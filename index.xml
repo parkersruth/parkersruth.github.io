@@ -1,8 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Parker Ruth</title><link>https://parkersruth.com/</link><description>Recent content in About on Parker Ruth</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://parkersruth.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Honors</title><link>https://parkersruth.com/honors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/honors/</guid><description>National Honors January 2022 Hertz Fellowship Finalist One of 45 finalists for the most selective graduate STEM fellowship
-April 2021 Tau Beta Pi Fellowship $10,000 graduate research award
-March 2021 NSF Graduate Research Fellowship $138,000 award funding 3 years of graduate research
-January 2021 CRA Outstanding Undergraduate Research Award Finalist Awarded by Computing Research Association for ubiquitous computing research
-March 2020 Barry Goldwater Scholarship National undergraduate research award
-January 2020 CRA Outstanding Undergraduate Research Award Finalist Awarded by Computing Research Association for ubiquitous computing research</description></item><item><title>Leadership</title><link>https://parkersruth.com/leadership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/leadership/</guid><description>BioExplore I launched BioExplore as an initiative to increase support for University of Washington students interested in bioengineering-related research. In its inaugural year, I led the club in coordinating workshops, lab tours, and presentations to provide tools to help undergraduates get involved in research. My work on BioExplore was recognized with a Mary Gates Leadership Scholarship.
-Website Poster Bioengineering Journal Club I launched the Bioengineering Journal Club (BJC) to provide an inclusive venue for University of Washington students to learn about and share their passions for cutting-edge research in bioengineering.</description></item><item><title>Research</title><link>https://parkersruth.com/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/research/</guid><description>Mobile Health systems Mobile Ultrasonic Sonar Exercise Sensing Physical inactivity is the fourth leading risk factor for death worldwide, and yet eighty percent of US adults do not meet national exercise recommendations. In collaboration with the Sports Institute at UW Medicine, the UbiComp Lab is designing a smartphone application that can be prescribed to patients at University of Washington Medicine clinics. Physical activity is a vital sign that should be monitored regularly alongside blood pressure and BMI.</description></item><item><title>Teaching</title><link>https://parkersruth.com/teaching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/teaching/</guid><description>Course Instruction Ubiquitous Computing Seminar During the 2019–2020 academic year I led the CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.
-MATLAB Seminar In Autumn 2019 I co-instructed the BIOEN 217 MATLAB Fundamentals for Bioengineers seminar, which introduces programming in MATLAB to students from a variety of backgrounds. I developed biomedically relevant examples, prepared and delivered lectures, graded coding assignments, and supported course development.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Parker Ruth</title><link>https://parkersruth.com/</link><description>Recent content in About on Parker Ruth</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://parkersruth.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Honors</title><link>https://parkersruth.com/honors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/honors/</guid><description>&lt;h1 id="national-honors">National Honors&lt;/h1>
+&lt;h3 style="float: right;"> January 2022 &lt;/h3>
+
+&lt;h3 id="hertz-fellowship-finalist">Hertz Fellowship Finalist&lt;/h3>
+&lt;p>One of 45 finalists for the most selective graduate STEM fellowship&lt;/p>
+&lt;h3 style="float: right;"> April 2021 &lt;/h3>
+
+&lt;h3 id="tau-beta-pi-fellowship">Tau Beta Pi Fellowship&lt;/h3>
+&lt;p>$10,000 graduate research award&lt;/p>
+&lt;h3 style="float: right;"> March 2021 &lt;/h3>
+
+&lt;h3 id="nsf-graduate-research-fellowship">NSF Graduate Research Fellowship&lt;/h3>
+&lt;p>$138,000 award funding 3 years of graduate research&lt;/p>
+&lt;h3 style="float: right;"> January 2021 &lt;/h3>
+
+&lt;h3 id="cra-outstanding-undergraduate-research-award-finalist">CRA Outstanding Undergraduate Research Award Finalist&lt;/h3>
+&lt;p>Awarded by Computing Research Association for ubiquitous computing research&lt;/p></description></item><item><title>Leadership</title><link>https://parkersruth.com/leadership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/leadership/</guid><description>&lt;h1 id="bioexplore">BioExplore&lt;/h1>
+
+&lt;img src = '/img/bioexplore.svg'
+ alt = '
+logo: BioExplore Bioengineering Research Exploration
+'
+ class = 'right'
+ 
+ draggable = "false">
+
+&lt;p>I launched BioExplore as an initiative to increase support for University of Washington students interested in bioengineering-related research. In its inaugural year, I led the club in coordinating workshops, lab tours, and presentations to provide tools to help undergraduates get involved in research. My work on BioExplore was recognized with a Mary Gates Leadership Scholarship.&lt;/p></description></item><item><title>Research</title><link>https://parkersruth.com/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/research/</guid><description>&lt;h1 id="mobile-health-systems">Mobile Health systems&lt;/h1>
+&lt;h3 id="mobile-ultrasonic-sonar-exercise-sensing">Mobile Ultrasonic Sonar Exercise Sensing&lt;/h3>
+
+&lt;img src = '/img/sonar_study.svg'
+ alt = '
+illustration of ultrasound sonar project: a smartphone on a desk emits sounds towards a seated user, a computer screen displays instructions for the user to perform lunges, a smartphone application lets the user control starting and stopping the recording
+'
+ class = 'inline'
+ 
+ draggable = "false">
+
+&lt;p>Physical inactivity is the fourth leading risk factor for death worldwide, and yet eighty percent of US adults do not meet national exercise recommendations. In collaboration with the &lt;a href="https://thesportsinstitute.com/">Sports Institute at UW Medicine&lt;/a>, the UbiComp Lab is designing a smartphone application that can be prescribed to patients at University of Washington Medicine clinics. Physical activity is a vital sign that should be monitored regularly alongside blood pressure and BMI. Our application is designed to assist in goal setting, provide context-aware nudges, and connect exercise data with health care providers. To extend the quantification of physical activity beyond step counting, I evaluated the use of acoustic sonar sensing to classify a wide range of exercises. I mentored two high school interns who are assisted with data collection and analysis.&lt;/p></description></item><item><title>Teaching</title><link>https://parkersruth.com/teaching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://parkersruth.com/teaching/</guid><description>&lt;h1 id="course-instruction">Course Instruction&lt;/h1>
+&lt;h3 id="ubiquitous-computing-seminar">Ubiquitous Computing Seminar&lt;/h3>
+&lt;p>During the 2019–2020 academic year I led the CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.&lt;/p>
+&lt;h3 id="matlab-seminar">MATLAB Seminar&lt;/h3>
+&lt;p>In Autumn 2019 I co-instructed the BIOEN 217 MATLAB Fundamentals for Bioengineers seminar, which introduces programming in MATLAB to students from a variety of backgrounds. I developed biomedically relevant examples, prepared and delivered lectures, graded coding assignments, and supported course development.&lt;/p></description></item></channel></rss>
