@@ -3,7 +3,6 @@ title: "Honors"
 ---
 
 
-
 # National Honors
 
 {{< award_date "January 2022" >}}

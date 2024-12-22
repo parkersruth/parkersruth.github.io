@@ -1,17 +1,33 @@
 <header>
+	<div class="namebox">
+		<div class="noggin">
+			<img src="/img/noggin.svg"/>
+		</div>
+		<div class="bcard">
+			<div>
+				<div class="myname">Parker Ruth</div>
 
-	<center><a class="myname" href="{{ .Site.BaseURL }}">Parker Ruth</a></center>
+				<div class="mylinks">
 
-	{{ $currentPage := . }}
+					<a href="mailto:paru@stanford.edu">
+						<i id="myemailicon" class="fa fa-envelope fa-lg"></i>
+						<span id="myemail"> paru@stanford.edu</span>
+						</a>
 
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul class='navbar'>
-			{{ range . }}
-			<li class="navlink {{ if eq $currentPage.Name .Name }}imhere{{ end }}"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
+					<a target="_blank" href="http://linkedin.com/in/parkersruth">
+						<i class="fab fa-linkedin fa-lg icon"></i>
+					</a>
 
+					<a target="_blank" href="https://scholar.google.com/citations?user=a_ZJHvgAAAAJ">
+						<i class="fas fa-graduation-cap fa-lg icon"></i>
+					</a>
+
+					<a id="cv-link" href="docs/Parker_Ruth_CV.pdf" target="_blank">
+						CV
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 </header>

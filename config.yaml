@@ -2,20 +2,8 @@ baseURL: https://parkersruth.com/
 languageCode: en-us
 title: Parker Ruth
 
-menu:
-  main:
-    - name: About
-      url: /
-      weight: 1
-    - name: Research
-      url: /research
-      weight: 2
-    - name: Teaching
-      url: /teaching
-      weight: 3
-    - name: Leadership
-      url: /leadership
-      weight: 4
-    - name: Honors
-      url: /honors
-      weight: 5
+markup:
+  tableOfContents:
+    endLevel: 1
+    ordered: false
+    startLevel: 1
