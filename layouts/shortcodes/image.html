@@ -1,6 +1,5 @@
-
 <img src = '/img/{{ .Get "src" }}'
      alt = '{{ .Inner }}'
-     class = '{{ if .Get "class" }}{{ .Get "class" }}{{ else }} inline {{ end }}'
-     {{if .Get "height"}} height = {{ .Get "height" }} {{ end }}
+     class = '{{ if .Get "class" }}{{ .Get "class" }}{{ else }} display {{ end }}'
+     {{if .Get "width"}} style = 'width: {{ .Get "width" }};' {{ end }}
      draggable = "false">

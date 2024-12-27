@@ -1,46 +1,31 @@
 .fishbtn-container {
-  /* z-index: +2; */
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+  display: inline-block;
 }
 .fish {
-  width: 75px;
-  /* visibility: hidden; */
+  width: 4rem;
+  margin: 1em;
 }
-/* .fish-tank:hover .fish {
-  visibility: visible;
-} */
 #fishbtn {
   visibility: hidden;
-  /* background-color: white; */
   background-color: transparent;
-  border-radius: 2em;
+  /* border-radius: 100%; */
   outline: none;
-  shadow: none;
   border: none;
   cursor: pointer;
 }
 #fishbtn[fishy=true] {
-  background-color: var(--light-grey);
+  /* background-color: #F2F2F2; */
   visibility: visible;
 }
 .fishbtn-container:hover #fishbtn {
   visibility: visible;
 }
-
 #particles-js {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   left: 0;
   top: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   visibility: hidden;
 }
-/* #particle-js[fishy=false] {
-  visibility: hidden;
-}
-#particle-js[fishy=true] {
-  visibility: visible;
-} */

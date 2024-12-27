@@ -4,6 +4,9 @@ title: Parker Ruth
 
 markup:
   tableOfContents:
+    startLevel: 1
     endLevel: 1
     ordered: false
-    startLevel: 1
+
+params:
+  headshot_file: "/img/noggin.jpg"
