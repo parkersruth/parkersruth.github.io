@@ -4,7 +4,7 @@ title: "Parker Ruth - Stanford CS PhD"
 
 #
 
-{{< image src="portrait.jpg" class=left >}}
+{{< image src="noggin.jpg" class="left" >}}
   portrait of Parker Ruth in a research lab
 {{< /image >}}
 

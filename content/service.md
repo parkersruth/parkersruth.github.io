@@ -19,7 +19,7 @@ I launched BioExplore as an initiative to increase support for University of Was
 
 ## Bioengineering Journal Club
 
-{{< image src="bjc.jpg" class="right" width="8rem">}}
+{{< image src="bjc.jpg" class="right" height="150rem">}}
 logo: Bioengineering Journal Club
 {{< /image >}}
 
