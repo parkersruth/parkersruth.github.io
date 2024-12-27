@@ -13,8 +13,8 @@ menu:
     - name: Teaching
       url: /teaching
       weight: 3
-    - name: Leadership
-      url: /leadership
+    - name: Service
+      url: /Service
       weight: 4
     - name: Honors
       url: /honors
