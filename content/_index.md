@@ -52,10 +52,22 @@ Physical inactivity is the fourth leading risk factor for death worldwide, and y
 
 ## Sensing Cardiovascular Health
 
+<!-- {{< image src="cv_system.svg" class="right" width="3rem">}}
+illustration of heart and blood vessels in the human body
+{{< /image >}} -->
 
-<!-- ### Current stealth project -->
 
-I'm currently designing sensors and algorithms for measuring digital biomarkers of cardiovascular health. This work is funded by a Wu Tsai Human Performance Alliance Seed Grant. Some of my prior work is described below
+{{< image src="wu_sim.svg" width="20em" >}}
+TODO
+{{< /image >}}
+
+
+Cardiovascular health is among the most important factors for longevity and overall wellbeing.
+I envision a future where affordable wearables can measure continuous changes in important parameters of heart and blood vessel function.
+I'm currently leading a moonshot project designing novel sensors and algorithms for measuring digital biomarkers of cardiovascular health.
+I'm grateful to work with close collaborators in both the School of Medicine and School of Engineering.
+This work is funded by a $200,000 Wu Tsai Human Performance Alliance Seed Grant.
+This project is still in stealth mode. In the meantime, some of my prior cardiovascular sensing work is described below.
 
 
 ### Earbud Physiological Sensing
@@ -98,18 +110,8 @@ The face provides a very unique opportunity for performing physiological sensing
 Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
 {{< /image >}}
 
-I am currently supporting an initiative to study how interactions between older adults and caregivers can be enhanced by intelligent sensing systems in the built environment.
-We are conducting formative deisgn workshops and prototyping multimodal sensing systems.
-
-
-<!-- ### Ubiquitous Non-Invasive Osteoporosis Screening
-{{< image src="osteoapp.gif" class="right" width="8rem">}}
-illustration of ultrasound sonar project: a smartphone on a desk emits sounds towards a seated user, a computer screen displays instructions for the user to perform lunges, a smartphone application lets the user control starting and stopping the recording
-{{< /image >}}
-
-Osteoporosis is characterized by a decrease in bone mass density (BMD) causing millions of fractures annually. The clinical standard for measuring BMD requires radiation, expensive equipment, and trained staff, motivating the need for a low-cost and ubiquitous alternative. I prototyped OsteoApp, a smartphone application that aims to infer bone mass density by measuring resonant frequency in a human tibia using the built-in accelerometer. I tested this system alongside a low-noice accelerometer data collection system I built with patients from local retirement communities as well as a control group of healthy volunteers, and performed signal processing and data analysis in Python. I presented this work at the 2019 University of Washington Undergraduate Research Symposium.
-
-{{< button Poster "/docs/osteoapp_poster.pdf" >}} -->
+I am currently supporting an initiative to study how interactions between older adults and caregivers can be enhanced by privacy-preserving intelligent sensing systems integrated with the built environment.
+We have conducted formative deisgn workshops with older adults, personal health aides, and certified nursing assistants. We are now prototyping multimodal health sensing systems in preparation for a field deployment study.
 
 
 ## Global and Population Health
@@ -212,7 +214,7 @@ We discussed improvements to department curriculum and student programs, collect
 
 # Honors
 
-## National Honors
+### National Honors
 
 {{< award date="December 2024" title="Wu Tsai Human Performance Alliance Seed Grant" >}}
 Awarded $200,000 in seed funding for cardiovascular health sensing work
@@ -250,7 +252,7 @@ Awarded for Paper Cup Construction initiative
 Awarded for academic merit
 {{< /award >}}
 
-## University of Washington Honors
+### University of Washington Honors
 
 
 {{< award date="June 2021" title="Outstanding Senior Award" >}}
