@@ -2,20 +2,11 @@ baseURL: https://parkersruth.com/
 languageCode: en-us
 title: Parker Ruth
 
-menu:
-  main:
-    - name: About
-      url: /
-      weight: 1
-    - name: Research
-      url: /research
-      weight: 2
-    - name: Teaching
-      url: /teaching
-      weight: 3
-    - name: Service
-      url: /Service
-      weight: 4
-    - name: Honors
-      url: /honors
-      weight: 5
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 1
+    ordered: false
+
+params:
+  headshot_file: "/img/noggin.jpg"
