@@ -212,16 +212,13 @@ We discussed improvements to department curriculum and student programs, collect
 
 
 
-# Honors
+# Awards
 
-### National Honors
+
+## Grants & Fellowship
 
 {{< award date="December 2024" title="Wu Tsai Human Performance Alliance Seed Grant" >}}
-Awarded $200,000 in seed funding for cardiovascular health sensing work
-{{< /award >}}
-
-{{< award date="January 2022" title="Hertz Fellowship Finalist" >}}
-One of 45 finalists for the most selective graduate STEM fellowship
+$200,000 internal Stanford grant for cardiovascular health sensing work
 {{< /award >}}
 
 {{< award date="April 2021" title="Tau Beta Pi Fellowship" >}}
@@ -230,6 +227,13 @@ $10,000 graduate research award
 
 {{< award date="March 2021" title="NSF Graduate Research Fellowship" >}}
 $138,000 award funding 3 years of graduate research
+{{< /award >}}
+
+
+## National Honors
+
+{{< award date="January 2022" title="Hertz Fellowship Finalist" >}}
+One of 45 finalists for the most selective graduate STEM fellowship
 {{< /award >}}
 
 {{< award date="January 2021" title="CRA Outstanding Undergraduate Research Award Finalist" >}}
@@ -252,7 +256,8 @@ Awarded for Paper Cup Construction initiative
 Awarded for academic merit
 {{< /award >}}
 
-### University of Washington Honors
+
+## Undergraduate Honors
 
 
 {{< award date="June 2021" title="Outstanding Senior Award" >}}
