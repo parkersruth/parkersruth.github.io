@@ -1,29 +1,12 @@
 {{ define "main" }}
-	<main>
-		{{ .Content }}
 
-		<link rel="stylesheet" href="{{ "css/fish.css" | relURL }}">
-
-		<br>
-		<p>
-			<i class="far fa-file-alt fa-lg icon"></i>
-			<a style='padding-right:2.7em' href="docs/Parker_Ruth_CV.pdf" target="_blank">CV</a>
-			<i class="far fa-envelope fa-lg icon"></i>
-			<a style='padding-right:2.7em' href="mailto:paru@stanford.edu">paru@stanford.edu</a>
-			<i class="fab fa-linkedin fa-lg icon"></i>
-			<a style='padding-right:2.7em' target="_blank" href="http://linkedin.com/in/parkersruth">LinkedIn</a>
-			<i class="fas fa-graduation-cap fa-lg icon"></i>
-			<a target="_blank" href="https://scholar.google.com/citations?user=a_ZJHvgAAAAJ">Google Scholar</a>
-		</p>
-
-		<div id="particles-js"></div>
-		<script src="/js/particles.min.js"></script>
-		<script src="/js/fish.js"></script>
-
-		<div class="fishbtn-container">
-			<button fishy=false id='fishbtn' onclick="toggleFish()"><img src="/img/fish.png" class='fish' draggable="false"></button>
+		<div class="main-container">
+			{{ partial "sidebar" . }}
+			<main>
+				{{ partial "header" . }}
+				{{ .Content }}
+			</main>
 		</div>
 
-	</main>
-
 {{ end }}
+

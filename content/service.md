@@ -24,3 +24,4 @@ logo: Bioengineering Journal Club
 {{< /image >}}
 
 I launched the Bioengineering Journal Club (BJC) to provide an inclusive venue for University of Washington students to learn about and share their passions for cutting-edge research in bioengineering. Topics included rapid diagnostic tests, biomaterials, nanoengineering, and drug delivery. We held biweekly meetings in which researchers described their work and presented a paper for discussion. In collaboration with faculty and advisors, BJC was re-envisioned as BioExplore after a successful pilot year.
+

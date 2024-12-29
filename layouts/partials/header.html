@@ -1,17 +1,44 @@
+<link rel="stylesheet" href="{{ "css/fish.css" | relURL }}">
+<div id="particles-js"></div>
+<script src="/js/particles.min.js"></script>
+<script src="/js/fish.js"></script>
+
 <header>
-
-	<center><a class="myname" href="{{ .Site.BaseURL }}">Parker Ruth</a></center>
-
-	{{ $currentPage := . }}
-
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul class='navbar'>
-			{{ range . }}
-			<li class="navlink {{ if eq $currentPage.Name .Name }}imhere{{ end }}"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
-
+	<div class="fishtank">
+		<div class="namebox">
+			<div class="noggin">
+				<img src="{{ .Site.Params.headshot_file }}"/>
+			</div>
+			<div class="bcard">
+				<div>
+					<div class="myname"><a href="#">Parker Ruth</a></div>
+					
+					<div class="mylinks">
+						
+						<a href="mailto:paru@stanford.edu">
+							<i id="myemailicon" class="fa fa-envelope fa-lg"></i>
+							<span id="myemail"> paru@stanford.edu</span>
+						</a>
+						
+						<a href="http://linkedin.com/in/parkersruth">
+							<i class="fab fa-linkedin fa-lg icon"></i>
+						</a>
+						
+						<a href="https://scholar.google.com/citations?user=a_ZJHvgAAAAJ">
+							<i class="fas fa-graduation-cap fa-lg icon"></i>
+						</a>
+						
+						<a id="cv-link" href="docs/Parker_Ruth_CV.pdf">
+							CV
+						</a>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="fishbtn-container">
+			<button fishy=false id='fishbtn' onclick="toggleFish()"><img src="/img/fish.svg" class='fish' draggable="false"></button>
+		</div>			
+	</div>
 </header>
