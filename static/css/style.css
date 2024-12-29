@@ -271,6 +271,10 @@ img.display {
   margin-left: 1.5rem;
   font-size: 0.8rem;
 }
+.award-date {
+  text-align: right;
+  margin-left: 1rem;
+}
 .award-flex {
   font-weight: 600;
   display: flex;
