@@ -2,7 +2,8 @@
 title: "Parker Ruth - Stanford CS PhD"
 ---
 
-I'm a Computer Science PhD student at Stanford University. My research lies in the intersection of computing, engineering, and medicine. I'm currently designing sensors and algorithms to measure digital biomarkers. I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in pediatric cardiology, [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology, and [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics.
+I'm a Stanford Computer Science PhD student working in the intersection of computing, engineering, and medicine. I'm currently designing sensors and algorithms to measure digital biomarkers of neuromuscular and cardiovascular health.
+I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in pediatric cardiology, [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology, and [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics.
 
 I earned undergraduate degrees in bioengineering and computer engineering from the University of Washington in Seattle. As a member of the UbiComp Lab advised by [Dr. Shwetak Patel](https://ubicomplab.cs.washington.edu/members/), I explored applications of computing tools to improve the quality and accessibility of healthcare, including mobile health, wearables, and population health.
 
@@ -10,40 +11,46 @@ I'm honored to be named an NSF Graduate Research Fellow, Hertz Fellowship Finali
 
 I will graduate with my PhD in 2027.
 
+
 # Research
 
-## Sensing human movement
+## Sensing Human Movement
 
 ### Video-based neuromuscular biomarkers
 
 {{< image src="opencap_nmd.svg" class="inline" width="35rem" >}}
-TODO - alt text
+Illustration showing people being recorded by smartphone cameras. Videos are processed using OpenCap to produce a skeletal model which is then used to generate features for disease classification and biomarker design.
 {{< /image >}}
 
 Assessing human movement is essential for diagnosing and monitoring movement-related conditions.
 Timed function tests (TFTs) are among the most widespread assessments due to their speed and simplicity.
-However, TFTs cannot capture disease-specific movement patterns.
-Recent advances in smartphone video-based biomechanical analysis allow detailed movement quantification with the ease and speed required for clinical settings.
-To compare video-based analysis against TFTs, we collected data from 129 individuals: 28 with facioscapulohumeral muscular dystrophy, 58 with myotonic dystrophy, and 43 with typical movement.
-Video-based movement recordings took a median time of 16 minutes per participant.
-In addition to reproducing TFTs (r > 0.98), video metrics can outperform TFTs at disease classification (p < 0.001).
-Video-based analysis also identifies differences in gait kinematics and arm range of motion not evident in TFTs.
-We conclude that video-based biomechanical analysis can complement existing functional movement assessments and capture more sensitive, disease-specific outcomes from human movement.
+However, TFTs cannot capture disease-specific movement patterns and are insufficiently sensitive to temporal changes.
+[OpenCap](https://www.opencap.ai/), a tool for smartphone video-based biomechanical analysis, now allows detailed movement quantification with the ease and speed required for clinical settings.
+To compare video-based analysis against TFTs, I collected data from 129 individuals, including 28 with facioscapulohumeral muscular dystrophy, 58 with myotonic dystrophy, and 43 with typical movement.
+I led two high-thougput on-campus data collections, in addition to bringing our smartphone-based capture setup to conferences, community events, and clinics.
+In addition to reproducing TFTs, video analysis can identifies differences in gait kinematics and arm range of motion not captured by TFTs.
+I am now using this technology to design more sensitive biomarkers of neuromuscular health.
 
 {{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
 {{< button Video "https://youtu.be/tmlzs57l4YI" >}}
 
+
+
 ### Mobile Sonar Exercise Sensing
 
-{{< image src="sonar_study.svg" class="inline" width="30rem">}}
+<!-- {{< image src="sonar_study.svg" class="inline" width="30rem">}}
 illustration of ultrasound sonar project: a smartphone on a desk emits sounds towards a seated user, a computer screen displays instructions for the user to perform lunges, a smartphone application lets the user control starting and stopping the recording
+{{< /image >}} -->
+{{< image src="sonar.svg" class="inline" class="right" width="7rem">}}
+illustration of a smartphone on a desk emitting sound waves towards a seated user
 {{< /image >}}
 
-Physical inactivity is the fourth leading risk factor for death worldwide, and yet eighty percent of US adults do not meet national exercise recommendations. In collaboration with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), the UbiComp Lab is designing a smartphone application that can be prescribed to patients at University of Washington Medicine clinics. Physical activity is a vital sign that should be monitored regularly alongside blood pressure and BMI. Our application is designed to assist in goal setting, provide context-aware nudges, and connect exercise data with health care providers. To extend the quantification of physical activity beyond step counting, I evaluated the use of acoustic sonar sensing to classify a wide range of exercises. I mentored two high school interns who are assisted with data collection and analysis.
+
+Physical inactivity is the fourth leading risk factor for death worldwide, and yet eighty percent of US adults do not meet national exercise recommendations. In collaboration with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), the UbiComp Lab is designing a smartphone application that can be prescribed to patients at University of Washington Medicine clinics. Physical activity is a vital sign that should be monitored regularly alongside blood pressure and BMI. Our application is designed to assist in goal setting, provide context-aware nudges, and connect exercise data with health care providers. To extend the quantification of physical activity beyond step counting, I evaluated the use of acoustic sonar sensing to classify a wide range of exercises.
 
 
 
-## Sensing cardiovascular health
+## Sensing Cardiovascular Health
 
 
 <!-- ### Current stealth project -->
@@ -80,20 +87,19 @@ Pulse transit time (PTT) is the time differential between the heartbeat and the 
 illustration of pulse sensing face mask: flexible wires attach the four optical sensors to a main controller on the forehead; eyes are shielded behind plastic cups, and the superhero-like mask is made of blue foam
 {{< /image >}}
 
-The face provides a very unique opportunity for performing physiological sensing using wearables and camera-based systems. Measuring the vascular network in the face may enable disease diagnosis and continuous monitoring. A common technique for pulse sensing is photoplethysmography (PPG), a non-invasive optical measurement of blood pulses. However, facial PPG remains under-explored in terms of both signal acquisition and analysis. To characterize the timing and morphological features of facial PPG waveforms I designed, built, and tested a multi-channel facial PPG sensing system that can record synchronized pulse waveforms at multiple locations and optical wavelengths. I worked closely with a clinical collaborator from University of Washington Medicine, in addition to mentoring two undergraduate students.
+The face provides a very unique opportunity for performing physiological sensing using wearables and camera-based systems. Measuring the vascular network in the face may enable disease diagnosis and continuous monitoring. A common technique for pulse sensing is photoplethysmography (PPG), a non-invasive optical measurement of blood pulses. However, facial PPG remains under-explored in terms of both signal acquisition and analysis. To characterize the timing and morphological features of facial PPG waveforms I designed, built, and tested a multi-channel facial PPG sensing system that can record synchronized pulse waveforms at multiple locations and optical wavelengths.
 
 {{< button Paper "https://ieeexplore.ieee.org/document/9176700" >}}
 
 
+## Ambient Intelligence for healthcare
 
+{{< image src="hpds.svg" width="18em" >}}
+Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
+{{< /image >}}
 
-
-
-
-## Ambient Intelligence for Healthcare
-
-TODO
-
+I am currently supporting an initiative to study how interactions between older adults and caregivers can be enhanced by intelligent sensing systems in the built environment.
+We are conducting formative deisgn workshops and prototyping multimodal sensing systems.
 
 
 <!-- ### Ubiquitous Non-Invasive Osteoporosis Screening
@@ -106,9 +112,14 @@ Osteoporosis is characterized by a decrease in bone mass density (BMD) causing m
 {{< button Poster "/docs/osteoapp_poster.pdf" >}} -->
 
 
-## Global health
+## Global and Population Health
 
 ### SARS-CoV-2 Screening in Public Transportation Air Filtration
+
+{{< image src="bus_sampling.jpg" width="20em" >}}
+Illustration showing samples taken from air filters and hand rails on busses. Samples are extracted, and processed with RT-qPCR. Proportion of positive tests trends with county daily cases between August 2020 and February 2021.
+{{< /image >}}
+
 
 Motivated by the need for population level monitoring of COVID-19 transmission, the UbiComp Lab partnered with Microsoft Research to develop
 protocols for obtaining environmental samples from public transportation air filtration systems to detect the presence of SARS-CoV-2. I supported these efforts by advising on study design, performing literature review, coordinating with collaborators, and participating in paper writing.
@@ -125,9 +136,9 @@ protocols by performing direct amplification, bypassing the RNA extraction step.
 
 ### Computer Vision for HIV Drug Resistance Testing
 
-<!-- {{< image src="ola-simple.jpg" width="25em" >}}
+{{< image src="ola-simple.jpg" width="20em" >}}
 illustration of computer vision algorithm: the bands on a lateral flow test are found with peak detection; the pixel regions of each band are compared with adjacent background regions with a t-statistic
-{{< /image >}} -->
+{{< /image >}}
 
 Testing for drug resistant strains of HIV is necessary for clinicians to effectively treat patients; however, the standard genotyping assays like Sanger sequencing are infeasible in resource-limited settings where drug resistant HIV is increasingly circulating. OLA-Simple is a low-cost paper-based lateral flow strip test and chemistry kit that can be used to amplify and detect low amounts of drug-resistant strains of HIV. Five common drug-resistant mutations can be visualized as colored bands on a paper strip; however, human error limits the sensitivity and specificity of this test when interpreted by eye. I built computer vision code to read flatbed scanner images, isolate paper strips, and measure the band intensities to interpret the test results. I used this code to generate data for major tables and figures in the paper for this project, and performed an evaluation with training and testing datasets that demonstrated over 99% accuracy.
 
@@ -149,22 +160,21 @@ Abacavir is a nucleoside analog reverse-transcriptase inhibitor used to treat HI
 
 # Teaching
 
-
-## Course Instruction
+### Human-Computer Interaction: Foundations and Frontiers
+In winter 2024 I am a course assistant for Stanford CS 347. I lead weekly discussion sections on seminal literature in human-computer interaction. I also support writing quizzes and grading reading reflections.
 
 ### Ubiquitous Computing Seminar
-During the 2019&ndash;2020 academic year I led the CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.
+During the 2019&ndash;2020 academic year I led the UW CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.
 
 ### MATLAB Seminar
-In Autumn 2019 I co-instructed the BIOEN 217 MATLAB Fundamentals for Bioengineers seminar, which introduces programming in MATLAB to students from a variety of backgrounds. I developed biomedically relevant examples, prepared and delivered lectures, graded coding assignments, and supported course development.
+In Autumn 2019 I co-instructed the UW BIOEN 217 MATLAB Fundamentals for Bioengineers seminar, which introduces programming in MATLAB to students from a variety of backgrounds. I developed biomedically relevant examples, prepared and delivered lectures, graded coding assignments, and supported course development.
 
-## Curriculum Development
 
 ### Biosignal Processing Textbook
 
-{{< image src="inducktor.jpg" width="30rem">}}
+<!-- {{< image src="inducktor.jpg" width="30rem">}}
 a worked example from the textbook called inDUCKtor: asks the student to derive the gain function for an RL circuit next to a duck wearing a stethoscope
-{{< /image >}}
+{{< /image >}} -->
 
 I wrote a 140-page course textbook for BIOEN 316 Signals and Sensors for Bioengineers. Topics include biosignal acquisition, Fourier analysis, digital and analog filtering, and linear systems. All of the document's text, equations, and figures are typeset in pure LaTeX.
 
@@ -182,9 +192,31 @@ I worked with a University of Washington chemistry professor to create Python pr
 
 
 
+# Service
+
+### Undergraduate Researcher Mentorship
+I am grateful for the excellent mentorship I have received and enjoy helping to uplift others. I mentor students through the CURIS program for Stanford undergaduates and the LINXS summer outreach program for students at HBCUs and HSIs. If you are an undergraduate interested in getting involved in research, please email me at paru@stanford.edu.
+
+### Stanford Dean's Graduate Student Advisory Council
+I represent the Computer Science Department on the Stanford Dean's Graduate Student Advisory Council. Our mandate is to work with the School of Engineering dean and chairs to help engineering graduate students thrive. I lead a subcommittee working to institute individual development plans for all engineering PhD students, create the first school-wide student experience feedback survey, and mobilize event funding to foster inter-department social connections.
+
+### Stanford Computer Science PhD Student Admissions Committee
+I reviewed applications to the Stanford Computer Science PhD program in 2022 and 2023. I represented the Human Computer Interaction research area and advocated for applicants from both traditional and untraditional pathways.
+
+### UW Bioengineering Department Curriculum Committee
+I was selected to represent my undergraduate cohort on department curriculum committee.
+We discussed improvements to department curriculum and student programs, collect student feedback, propose solutions to improve the academic experience.
+
+
+
+
 # Honors
 
 ## National Honors
+
+{{< award date="December 2024" title="Wu Tsai Human Performance Alliance Seed Grant" >}}
+Awarded $200,000 in seed funding for cardiovascular health sensing work
+{{< /award >}}
 
 {{< award date="January 2022" title="Hertz Fellowship Finalist" >}}
 One of 45 finalists for the most selective graduate STEM fellowship
@@ -280,27 +312,3 @@ Competitive UW program for undergraduate innovators
 {{< award date="September 2016" title="Interdisciplinary Honors Program" >}}
 Selective community of undergraduate scholars
 {{< /award >}}
-
-
-
-# Service
-
-## BioExplore
-
-{{< image src="bioexplore.svg" class="right" width="16rem">}}
-logo: BioExplore Bioengineering Research Exploration
-{{< /image >}}
-
-I launched BioExplore as an initiative to increase support for University of Washington students interested in bioengineering-related research. In its inaugural year, I led the club in coordinating workshops, lab tours, and presentations to provide tools to help undergraduates get involved in research. My work on BioExplore was recognized with a Mary Gates Leadership Scholarship.
-
-<!-- {{< button Website "https://sites.bioe.uw.edu/bioexplore" >}} -->
-{{< button Poster "/docs/bioexplore_poster.pdf" >}}
-
-
-## Bioengineering Journal Club
-
-{{< image src="bjc.jpg" class="right" width="8rem">}}
-logo: Bioengineering Journal Club
-{{< /image >}}
-
-I launched the Bioengineering Journal Club (BJC) to provide an inclusive venue for University of Washington students to learn about and share their passions for cutting-edge research in bioengineering. Topics included rapid diagnostic tests, biomaterials, nanoengineering, and drug delivery. We held biweekly meetings in which researchers described their work and presented a paper for discussion. In collaboration with faculty and advisors, BJC was re-envisioned as BioExplore after a successful pilot year.

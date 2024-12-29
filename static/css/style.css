@@ -102,10 +102,13 @@ header {
 }
 .myname {
   display: block;
-  /* background-color: #ddffff; */
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
   font-weight: 200;
+}
+.myname a {
+  color: black;
+  text-decoration: none;
 }
 .mylinks {
   display: flex;
@@ -153,12 +156,14 @@ h1 {
   font-size: 2rem;
   margin-top: 2.5rem;
   clear: left;
+  border-bottom: 0.1rem solid var(--medium-grey);
 }
 h2 {
   font-family: sans-serif, 'Nunito Sans';
   font-weight: normal;
-  font-size: 1.25rem;
-  margin-top: 1rem;
+  font-size: 1.35rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 h3 {
   font-family: sans-serif, 'Open Sans';
@@ -168,50 +173,24 @@ h3 {
 }
 p {
   font-size: 0.8rem;
-  margin-top: 0.5em;
   text-align: justify;
+  margin-bottom: 0.75rem;
 }
 
 b {
   font-weight: bold;
 }
 
-@media (max-width: 41rem) {
-  .noggin {
-    height: 4em
-  }
-  .myname {
-    font-size: 2.2em;
-  }
-  .mylinks {
-    font-size: 0.9em;
-  }
-  #myemailicon {
-    display: inline-block;
-  }
-  #myemail {
-    display:none;
-  }
-  .sidebar {
-    display: none;
-  }
-  .fishbtn-container {
-    display: none !important;
-  }
-}
-
-
-
 a.button {
+  background-color: var(--accent-light);
+  color: white;
   font-weight: 600;
   display: inline-block;
   text-decoration: none;
   outline: none;
-  color: var(--accent-light);
-  border: 2px solid var(--accent-light);
   border-radius: 0.3rem;
-  padding: 0.3rem 0.4rem;
-  margin: 0 0.5rem 1rem 0;
+  padding: 0.2rem 0.4rem;
+  margin: 0 0.25rem 0.5rem 0;
   font-size: 0.8rem;
   text-transform: uppercase;
   text-align: center;
@@ -222,9 +201,9 @@ a.button {
   user-select: none;
 }
 a.button:hover {
-  background-color: var(--accent-light);
-  color: white;
+  background-color: var(--accent-dark);
 }
+
 
 
 /* ul {
@@ -271,29 +250,25 @@ img.right {
   max-width: 30rem;
   max-height: 30rem;
   float: right;
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 1.5rem;
 }
 img.left {
   max-width: 30rem;
   max-height: 30rem;
   float: left;
-  margin: 0 1em 0;
+  margin: 0 1.5em 0 0;
 }
 img.display {
   max-width: 100%;
   max-height: 50vh;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 25px; */
 }
-/* td {
-  padding: 0px 10px 0px 10px;
-} */
 
 .award {
-  margin-top: 0.5em;
-  margin-left: 2em;
-  font-size: 0.8em;
+  margin-top: 0.75rem;
+  margin-left: 2rem;
+  font-size: 0.8rem;
 }
 .award-flex {
   font-weight: 600;
@@ -301,21 +276,19 @@ img.display {
   justify-content: space-between;
 }
 
-
 .caption {
   color: var(--dark-grey);
   padding-bottom: 0.5em;
   border-bottom: 1px solid var(--dark-grey);
-  margin-bottom: 10em;
+  margin-bottom: 10rem;
 }
 .supercaption {
   color: var(--dark-grey);
   padding-bottom: 0.5em;
   border-bottom: 1px solid var(--dark-grey);
-  margin-top: 8em;
-  margin-bottom: 2em;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
 }
-
 
 .wrapper {
   width: 100%;
@@ -364,14 +337,7 @@ footer {
   color: var(--dark-grey);
   padding: 50px 0px 50px 0px;
   text-align: center;
-  /* -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none; */
 }
-
-
 
 
 /* Prevent superscripts from affecting line height */
@@ -382,4 +348,40 @@ sup, sub {
 }
 sub {
   top: 0.4em;
+}
+
+
+
+
+@media (max-width: 41rem) {
+  .noggin {
+    height: 4em
+  }
+  .myname {
+    font-size: 2.2em;
+  }
+  .mylinks {
+    font-size: 0.9em;
+  }
+  #myemailicon {
+    display: inline-block;
+  }
+  #myemail {
+    display:none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .fishbtn-container {
+    display: none !important;
+  }
+  img.right, img.left {
+    max-width: 100%;
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: none;
+  }
 }
