@@ -14,7 +14,10 @@ I will graduate with my PhD in 2027.
 
 # Research
 
-## Sensing Human Movement
+## Quantifying Human Movement
+
+Measuring human movement is an essential part of measuring our overall health.
+I study how ubiquitous sensors can capture insights about our physical health from the way we move.
 
 ### Video-based neuromuscular biomarkers
 
@@ -22,14 +25,11 @@ I will graduate with my PhD in 2027.
 Illustration showing people being recorded by smartphone cameras. Videos are processed using OpenCap to produce a skeletal model which is then used to generate features for disease classification and biomarker design.
 {{< /image >}}
 
-Assessing human movement is essential for diagnosing and monitoring movement-related conditions.
-Timed function tests (TFTs) are among the most widespread assessments due to their speed and simplicity.
-However, TFTs cannot capture disease-specific movement patterns and are insufficiently sensitive to temporal changes.
-[OpenCap](https://www.opencap.ai/), a tool for smartphone video-based biomechanical analysis, now allows detailed movement quantification with the ease and speed required for clinical settings.
-To compare video-based analysis against TFTs, I collected data from 129 individuals, including 28 with facioscapulohumeral muscular dystrophy, 58 with myotonic dystrophy, and 43 with typical movement.
-I led two high-thougput on-campus data collections, in addition to bringing our smartphone-based capture setup to conferences, community events, and clinics.
-In addition to reproducing TFTs, video analysis can identifies differences in gait kinematics and arm range of motion not captured by TFTs.
-I am now using this technology to design more sensitive biomarkers of neuromuscular health.
+Slow-progressing movement disorders are difficult to measure longitudinally. Common metrics like timed function tests are not sensitive to the disease-specific movement patterns, limiting our ability to measure drug effects and monitor progression.
+I aim to close this gap with [OpenCap](https://www.opencap.ai/), a smartphone-based tool for biomechanical analysis developed by the Stanford [NMBL Lab](https://nmbl.stanford.edu/).
+By running high-throughput studies and on-site data collections at conferences, community events, and clinics, I collected the largest motion capture dataset for muscular dystrophy.
+I showed that video analysis can detect differences in gait kinematics and arm range-of-motion that existing metrics miss.
+I'm now using this data to design more sensitive biomarkers of neuromuscular health.
 
 {{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
 {{< button Video "https://youtu.be/tmlzs57l4YI" >}}
@@ -38,24 +38,16 @@ I am now using this technology to design more sensitive biomarkers of neuromuscu
 
 ### Mobile Sonar Exercise Sensing
 
-<!-- {{< image src="sonar_study.svg" class="inline" width="30rem">}}
-illustration of ultrasound sonar project: a smartphone on a desk emits sounds towards a seated user, a computer screen displays instructions for the user to perform lunges, a smartphone application lets the user control starting and stopping the recording
-{{< /image >}} -->
 {{< image src="sonar.svg" class="inline" class="right" width="7rem">}}
 illustration of a smartphone on a desk emitting sound waves towards a seated user
 {{< /image >}}
 
 
-Physical inactivity is the fourth leading risk factor for death worldwide, and yet eighty percent of US adults do not meet national exercise recommendations. In collaboration with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), the UbiComp Lab is designing a smartphone application that can be prescribed to patients at University of Washington Medicine clinics. Physical activity is a vital sign that should be monitored regularly alongside blood pressure and BMI. Our application is designed to assist in goal setting, provide context-aware nudges, and connect exercise data with health care providers. To extend the quantification of physical activity beyond step counting, I evaluated the use of acoustic sonar sensing to classify a wide range of exercises.
+Sustained physical activity is among the best predictors of overall health and wellbeing, yet most adults fall short of national exercise recommendations. While working in the [UbiComp Lab](https://ubicomplab.cs.washington.edu/members/), I collaborated with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), I designed a smartphone application that could be prescribed to patients at University of Washington Medicine clinics. To extend the quantification of physical activity beyond step counting, I tested the use of smartphone-basded acoustic sonar sensing to classify home exercises.
 
 
 
 ## Sensing Cardiovascular Health
-
-<!-- {{< image src="cv_system.svg" class="right" width="3rem">}}
-illustration of heart and blood vessels in the human body
-{{< /image >}} -->
-
 
 {{< image src="wu_sim.svg" width="20em" >}}
 TODO
@@ -65,9 +57,8 @@ TODO
 Cardiovascular health is among the most important factors for longevity and overall wellbeing.
 I envision a future where affordable wearables can measure continuous changes in important parameters of heart and blood vessel function.
 I'm currently leading a moonshot project designing novel sensors and algorithms for measuring digital biomarkers of cardiovascular health.
-I'm grateful to work with close collaborators in both the School of Medicine and School of Engineering.
 This work is funded by a $200,000 Wu Tsai Human Performance Alliance Seed Grant.
-This project is still in stealth mode. In the meantime, some of my prior cardiovascular sensing work is described below.
+While this project remains in stealth mode, my prior work on cardiovascular sensing is described below.
 
 
 ### Earbud Physiological Sensing
@@ -76,7 +67,9 @@ This project is still in stealth mode. In the meantime, some of my prior cardiov
 illustration of earbuds with heart icons
 {{< /image >}}
 
-With wireless earbuds becoming increasingly powerful and widely used, we recognize an opportunity to leverage them as a platform for performing continuous physiological measurements. Modern earbuds can contain acoustic, inertial, optical, and proximity sensors that may be re-purposed to track vital signs and perform diagnostics. My contribution to this work includes prototyping signal processing techniques for in-ear physiological sensing, in addition to supporting study design, data collection, data analysis, and paper writing.
+The growing adoption of wireless earbuds provides an opportunity for new modalities of continuous physiological sensing.
+I developed sensing and signal processing techniques for in-ear physiological sensing.
+We showed that in-ear noise-cancelling microphones can be repurposed to recover heart sounds from digital stethoscopes.
 
 {{< button Paper "https://doi.org/10.1109/EMBC53108.2024.10781641" >}}
 
@@ -87,7 +80,8 @@ With wireless earbuds becoming increasingly powerful and widely used, we recogni
 illustration of real time pulse transit time sensing: the camera measures PPG, the accelerometer measures SCG, and the time difference between them is the PTT
 {{< /image >}}
 
-Pulse transit time (PTT) is the time differential between the heartbeat and the arrival of the pulse pressure wave at the fingertip. Since PTT is indicative of arterial stiffness, it can provide an early sign of atheroscloerosis and cardiovascular disease. Additionally, PTT is inversely correlated with blood pressure, providing an opportunity to perform noninvasive estimation of of blood pressure using commodity devices. [Prior work](https://ubicomplab.cs.washington.edu/pdfs/seismo.pdf) from my lab proposed the use of smartphones to measure PTT; I built upon this work by implementing a smartphone application that can perform real-time sensing, signal processing, and visualization code for the Android smartphone platform. I presented this work within the Paul G. Allen School of Computer Science & Engineering at an annual technology CEO summit and the 2018 Industry Affiliates Research Day, as well as the 2018 University of Washington Undergraduate Research Symposium.
+Lowering barriers to regular blood pressure measurement is a grand challenge in health sensing. A common proxy for blood pressure is pulse transit time, the delay between a heartbeat and the arrival of the pulse wave at the fingertip.
+[Prior work](https://ubicomplab.cs.washington.edu/pdfs/seismo.pdf) from my lab showed how smartphone cameras and motion sensors can be used to measure pulse transit time. I followed this work by implementing a smarthone app with real-time sensing, signal processing, and visualization. I presented this demo at a Paul G. Allen School technology CEO summit, the 2018 Industry Affiliates Research Day, and the 2018 University of Washington Undergraduate Research Symposium.
 
 {{< button Poster "/docs/seismo_poster.pdf" >}}
 {{< button Code "https://github.com/ubicomplab/Seismo" >}}
@@ -99,12 +93,13 @@ Pulse transit time (PTT) is the time differential between the heartbeat and the 
 illustration of pulse sensing face mask: flexible wires attach the four optical sensors to a main controller on the forehead; eyes are shielded behind plastic cups, and the superhero-like mask is made of blue foam
 {{< /image >}}
 
-The face provides a very unique opportunity for performing physiological sensing using wearables and camera-based systems. Measuring the vascular network in the face may enable disease diagnosis and continuous monitoring. A common technique for pulse sensing is photoplethysmography (PPG), a non-invasive optical measurement of blood pulses. However, facial PPG remains under-explored in terms of both signal acquisition and analysis. To characterize the timing and morphological features of facial PPG waveforms I designed, built, and tested a multi-channel facial PPG sensing system that can record synchronized pulse waveforms at multiple locations and optical wavelengths.
+The rise of headsets and head-worn technologies opens a door to measuring physiological signals from the arteries in the face.
+To study the physiological patterns of pulse timing in facial arteries, I built a multi-channel facial pulse sensing system to record synchronized photoplethysmogram waveforms at multiple locations and optical wavelengths.
 
 {{< button Paper "https://ieeexplore.ieee.org/document/9176700" >}}
 
 
-## Ambient Intelligence for healthcare
+## Ambient Intelligence for Healthcare
 
 {{< image src="hpds.svg" width="18em" >}}
 Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
@@ -114,7 +109,7 @@ I am currently supporting an initiative to study how interactions between older 
 We have conducted formative deisgn workshops with older adults, personal health aides, and certified nursing assistants. We are now prototyping multimodal health sensing systems in preparation for a field deployment study.
 
 
-## Global and Population Health
+## Population and Global Health
 
 ### SARS-CoV-2 Screening in Public Transportation Air Filtration
 
@@ -122,19 +117,22 @@ We have conducted formative deisgn workshops with older adults, personal health 
 Illustration showing samples taken from air filters and hand rails on busses. Samples are extracted, and processed with RT-qPCR. Proportion of positive tests trends with county daily cases between August 2020 and February 2021.
 {{< /image >}}
 
-
-Motivated by the need for population level monitoring of COVID-19 transmission, the UbiComp Lab partnered with Microsoft Research to develop
-protocols for obtaining environmental samples from public transportation air filtration systems to detect the presence of SARS-CoV-2. I supported these efforts by advising on study design, performing literature review, coordinating with collaborators, and participating in paper writing.
+During the first years of the COVID-19 pandemic, my lab applied our expertise in infrastructure-based sensing to measure community transmission levels.
+We collaborated with Microsoft Research to test if air filters and high-contact surfaces in public transportation could be repurposed as SARS-CoV-2 collection devices.
+We found that PCR positive cases trended with county case rates.
 
 {{< button Paper "https://doi.org/10.1016/j.scitotenv.2021.152790" >}}
 
 
 ### Streamlining SARS-CoV-2 Molecular Assays
 
-Detecting and mitigating outbreaks of COVID-19 requires rapid and high throughput testing, disproportionately impacting regions with limited access to reagents, supplies, and trained staff. I worked with bioengineering collaborators to develop and test faster and simpler COVID-19
-protocols by performing direct amplification, bypassing the RNA extraction step. I created image processing algorithms for quantifying output fluorescence to reduce time and human error for point-of-care COVID-19 testing applications. This system was deployed for testing at clinical facilities in the US and Zimbabwe.
+Detecting and mitigating outbreaks of COVID-19 requires rapid and high throughput testing, disproportionately impacting regions with limited access to reagents, supplies, and trained staff.
+I worked with bioengineering collaborators to develop and test faster and simpler COVID-19 protocols by performing direct amplification, bypassing the RNA extraction step.
+I created image processing algorithms for quantifying output fluorescence to reduce time and human error for point-of-care COVID-19 testing applications.
+This system was deployed at collaborating clinical facilities in the US and Zimbabwe.
 
 {{< button Paper "https://doi.org/10.1016/j.ebiom.2021.103236" >}}
+
 
 ### Computer Vision for HIV Drug Resistance Testing
 
@@ -142,18 +140,14 @@ protocols by performing direct amplification, bypassing the RNA extraction step.
 illustration of computer vision algorithm: the bands on a lateral flow test are found with peak detection; the pixel regions of each band are compared with adjacent background regions with a t-statistic
 {{< /image >}}
 
-Testing for drug resistant strains of HIV is necessary for clinicians to effectively treat patients; however, the standard genotyping assays like Sanger sequencing are infeasible in resource-limited settings where drug resistant HIV is increasingly circulating. OLA-Simple is a low-cost paper-based lateral flow strip test and chemistry kit that can be used to amplify and detect low amounts of drug-resistant strains of HIV. Five common drug-resistant mutations can be visualized as colored bands on a paper strip; however, human error limits the sensitivity and specificity of this test when interpreted by eye. I built computer vision code to read flatbed scanner images, isolate paper strips, and measure the band intensities to interpret the test results. I used this code to generate data for major tables and figures in the paper for this project, and performed an evaluation with training and testing datasets that demonstrated over 99% accuracy.
+Detecting drug-resistant strains of HIV is necessary to prescribe life-saving treatment.
+But the standard sequencing methods are infeasible in resource-limited settings where drug-resistant HIV is most threatening. Low-cost paper-based lateral flow tests can dramatically reduce cost barriers; however, human error limits the sensitivity and specificity these tests. I built an image processing pipeline to interpret lateral flow tests for HIV and other global health applications.
 
 {{< button Paper "https://www.thelancet.com/article/S2352-3964(19)30743-1/fulltext" >}}
 
 {{< button Paper "https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx">}}
 
 {{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
-
-
-###  Near Point-of-Care Assay for HIV Drug Sensitivity
-
-Abacavir is a nucleoside analog reverse-transcriptase inhibitor used to treat HIV. Although it is generally well tolerated, it triggers dangerous anaphylactic shock in patients with the HLA-B*57:01 genotype. Scientists and engineers from UW Bioengineering and Seattle Children's Hospital developed a colorimetric lateral flow assay to identify patients at risk for drug sensitivity. I supported this work by applying image processing to reduce human error in assay interpretation.
 
 {{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.26.21257187v1" >}}
 
