@@ -19,13 +19,18 @@ I will graduate with my PhD in 2027.
 Measuring human movement is an essential part of measuring our overall health.
 I study how ubiquitous sensors can capture insights about our physical health from the way we move.
 
-### Video-based neuromuscular biomarkers
-
-{{< image src="opencap_nmd.svg" width="35rem" >}}
+{{< image src="opencap_nmd.svg" width="35rem">}}
 Illustration showing people being recorded by smartphone cameras. Videos are processed using OpenCap to produce a skeletal model which is then used to generate features for disease classification and biomarker design.
 {{< /image >}}
 
-Slow-progressing movement disorders are difficult to measure longitudinally. Common metrics like timed function tests are not sensitive to the disease-specific movement patterns, limiting our ability to measure drug effects and monitor progression.
+
+### Video-based neuromuscular biomarkers
+
+{{< image src="opencap.svg" class="inline" class="right" width="7rem">}}
+Two smartphones on tripods filming a man running.
+{{< /image >}}
+
+Slow-progressing movement disorders are difficult to measure over time. Common movement metrics are not sensitive to disease-specific movement patterns, limiting our ability to measure drug effects and monitor progression.
 I aim to close this gap with [OpenCap](https://www.opencap.ai/), a smartphone-based tool for biomechanical analysis developed by the Stanford [NMBL Lab](https://nmbl.stanford.edu/).
 By running high-throughput studies and on-site data collections at conferences, community events, and clinics, I collected the largest motion capture dataset for muscular dystrophy.
 I showed that video analysis can detect differences in gait kinematics and arm range-of-motion that existing metrics miss.
@@ -35,13 +40,11 @@ I'm now using this data to design more sensitive biomarkers of neuromuscular hea
 {{< button Video "https://youtu.be/tmlzs57l4YI" >}}
 
 
-
 ### Mobile Sonar Exercise Sensing
 
 {{< image src="sonar.svg" class="inline" class="right" width="7rem">}}
 illustration of a smartphone on a desk emitting sound waves towards a seated user
 {{< /image >}}
-
 
 Sustained physical activity is among the best predictors of overall health and wellbeing, yet most adults fall short of national exercise recommendations. While working in the [UbiComp Lab](https://ubicomplab.cs.washington.edu/members/), I collaborated with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), I designed a smartphone application that could be prescribed to patients at University of Washington Medicine clinics. To extend the quantification of physical activity beyond step counting, I tested the use of smartphone-based acoustic sonar sensing to classify home exercises.
 
@@ -49,21 +52,20 @@ Sustained physical activity is among the best predictors of overall health and w
 
 ## Sensing Cardiovascular Health
 
-<!-- {{< image src="wu_sim.svg" width="20em" >}}
-Scatterplots comparing sBP prediction accuracy using existing sensors (RMSE=40.1) versus a proposed sensor (RMSE=4.26). Results are from a simulation.
-{{< /image >}} -->
-
-
 Cardiovascular health is among the most important factors for longevity and overall wellbeing.
 I envision a future where affordable wearables can measure continuous changes in important parameters of heart and blood vessel function.
 I'm currently leading a moonshot project designing novel sensors and algorithms for measuring digital biomarkers of cardiovascular health.
 This work is funded by a $200,000 Wu Tsai Human Performance Alliance Seed Grant.
 While this project remains in stealth mode, my prior work on cardiovascular sensing is described below.
 
+{{< image src="wu_sim.svg" width="20em" >}}
+Scatterplots comparing sBP prediction accuracy using existing sensors (RMSE=40.1) versus a proposed sensor (RMSE=4.26). Results are from a simulation.
+{{< /image >}}
+
 
 ### Earbud Physiological Sensing
 
-{{< image src="earbud_phys.svg" class="right" width="5em" >}}
+{{< image src="earbud_phys.svg" class="right" width="4rem" >}}
 illustration of earbuds with heart icons
 {{< /image >}}
 
@@ -74,11 +76,7 @@ We showed that in-ear noise-cancelling microphones can be repurposed to recover 
 {{< button Paper "https://doi.org/10.1109/EMBC53108.2024.10781641" >}}
 
 
-### Real-time Smartphone Pulse Transit Time Measurement
-
-{{< image src="seismo.jpg" width="20em" >}}
-illustration of real time pulse transit time sensing: the camera measures PPG, the accelerometer measures SCG, and the time difference between them is the PTT
-{{< /image >}}
+### Smartphone Pulse Transit Time Measurement
 
 Lowering barriers to regular blood pressure measurement is a grand challenge in health sensing. A common proxy for blood pressure is pulse transit time, the delay between a heartbeat and the arrival of the pulse wave at the fingertip.
 [Prior work](https://ubicomplab.cs.washington.edu/pdfs/seismo.pdf) from my lab showed how smartphone cameras and motion sensors can be used to measure pulse transit time. I followed this work by implementing a smarthone app with real-time sensing, signal processing, and visualization. I presented this demo at a Paul G. Allen School technology CEO summit, the 2018 Industry Affiliates Research Day, and the 2018 University of Washington Undergraduate Research Symposium.
@@ -86,10 +84,14 @@ Lowering barriers to regular blood pressure measurement is a grand challenge in 
 {{< button Poster "/docs/seismo_poster.pdf" >}}
 {{< button Code "https://github.com/ubicomplab/Seismo" >}}
 
+{{< image src="seismo.jpg" width="20rem">}}
+illustration of real time pulse transit time sensing: the camera measures PPG, the accelerometer measures SCG, and the time difference between them is the PTT
+{{< /image >}}
 
-### Multi-Channel Facial Photoplethysmography
 
-{{< image src="facemask.svg" class="right" width="14em" >}}
+### Multi-Channel Facial Pulse Sensing
+
+{{< image src="facemask.svg" class="right" width="12rem" >}}
 illustration of pulse sensing face mask: flexible wires attach the four optical sensors to a main controller on the forehead; eyes are shielded behind plastic cups, and the superhero-like mask is made of blue foam
 {{< /image >}}
 
@@ -101,21 +103,19 @@ To study the physiological patterns of pulse timing in facial arteries, I built 
 
 ## Ambient Intelligence for Healthcare
 
-{{< image src="hpds.svg" width="18em" >}}
-Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
-{{< /image >}}
-
 I am currently supporting an initiative to study how interactions between older adults and caregivers can be enhanced by privacy-preserving intelligent sensing systems integrated with the built environment.
 We have conducted formative deisgn workshops with older adults, personal health aides, and certified nursing assistants. We are now prototyping multimodal health sensing systems in preparation for a field deployment study.
+
+{{< image src="hpds.svg" width="18rem" >}}
+Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
+{{< /image >}}
 
 
 ## Population and Global Health
 
-### SARS-CoV-2 Screening in Public Transportation Air Filtration
+At UW, I worked with the [UbiComp Lab](https://ubicomplab.cs.washington.edu/) in computer science and the [Lutz Lab](https://www.lutzlab.org/) in bioengineering to design technologies to expand access to life-saving healthcare in resource-constrained settings.
 
-{{< image src="bus_sampling.jpg" width="20em" >}}
-Illustration showing samples taken from air filters and hand rails on busses. Samples are extracted, and processed with RT-qPCR. Proportion of positive tests trends with county daily cases between August 2020 and February 2021.
-{{< /image >}}
+### COVID Monitoring in Public Transportation
 
 During the first years of the COVID-19 pandemic, my lab applied our expertise in infrastructure-based sensing to measure community transmission levels.
 We collaborated with Microsoft Research to test if air filters and high-contact surfaces in public transportation could be repurposed as SARS-CoV-2 collection devices.
@@ -123,22 +123,21 @@ We found that PCR positive cases trended with county case rates.
 
 {{< button Paper "https://doi.org/10.1016/j.scitotenv.2021.152790" >}}
 
+{{< image src="bus_sampling.jpg" width="20rem" >}}
+Illustration showing samples taken from air filters and hand rails on busses. Samples are extracted, and processed with RT-qPCR. Proportion of positive tests trends with county daily cases between August 2020 and February 2021.
+{{< /image >}}
 
-### Streamlining SARS-CoV-2 Molecular Assays
 
-Detecting and mitigating outbreaks of COVID-19 requires rapid and high throughput testing, disproportionately impacting regions with limited access to reagents, supplies, and trained staff.
+### Low-Cost SARS-CoV-2 Molecular Assays
+
+Detecting and mitigating outbreaks of COVID-19 requires rapid and high throughput testing, disproportionately impacting regions with limited access to reagents, supplies, and staff.
 I worked with bioengineering collaborators to develop and test faster and simpler COVID-19 protocols by performing direct amplification, bypassing the RNA extraction step.
-I created image processing algorithms for quantifying output fluorescence to reduce time and human error for point-of-care COVID-19 testing applications.
 This system was deployed at collaborating clinical facilities in the US and Zimbabwe.
 
 {{< button Paper "https://doi.org/10.1016/j.ebiom.2021.103236" >}}
 
 
 ### Computer Vision for HIV Drug Resistance Testing
-
-{{< image src="ola-simple.jpg" width="20em" >}}
-illustration of computer vision algorithm: the bands on a lateral flow test are found with peak detection; the pixel regions of each band are compared with adjacent background regions with a t-statistic
-{{< /image >}}
 
 Detecting drug-resistant strains of HIV is necessary to prescribe life-saving treatment.
 But the standard sequencing methods are infeasible in resource-limited settings where drug-resistant HIV is most threatening. Low-cost paper-based lateral flow tests can dramatically reduce cost barriers; however, human error limits the sensitivity and specificity these tests. I built an image processing pipeline to interpret lateral flow tests for HIV and other global health applications.
@@ -147,6 +146,11 @@ But the standard sequencing methods are infeasible in resource-limited settings 
 {{< button Paper "https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx">}}
 {{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
 {{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.26.21257187v1" >}}
+
+
+{{< image src="ola-simple.jpg" width="20rem" >}}
+illustration of computer vision algorithm: the bands on a lateral flow test are found with peak detection; the pixel regions of each band are compared with adjacent background regions with a t-statistic
+{{< /image >}}
 
 
 

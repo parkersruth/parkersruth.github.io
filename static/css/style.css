@@ -23,11 +23,11 @@ body {
   max-width: var(--body-width);
   margin: auto;
   font-size: 100%;
-  padding: 0 2rem 2rem 2rem;
+  padding: 2rem;
 }
 
 main {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 .main-container {
   display: flex;
@@ -134,35 +134,35 @@ header {
 
 h1, h2, h3 {
   scroll-margin-top: 9rem;
+  clear: both;
 }
 h1 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 300;
-  font-size: 2.5rem;
-  margin-top: 4rem;
-  margin-bottom: 0rem;
+  font-weight: 400;
+  font-size: 2.25rem;
   clear: left;
   border-bottom: 0.1rem solid var(--medium-grey);
+  margin: 4rem 0 0 0;
 }
 h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.35rem;
-  margin-top: 3rem;
-  margin-bottom: 0.5rem;
+  margin: 3rem 0 0 0 ;
 }
 h3 {
   /* display: inline; */
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
-  margin: 1.5rem 0 -0.25rem 0;
+  line-height: 1.5;
+  margin: 1.5rem 0 0 0;
 }
 p {
   font-size: 0.8rem;
   text-align: justify;
-  margin: 0.5rem 0 0.25rem 0;
   line-height: 1.5;
+  margin: 0 0 0.5rem 0;
 }
 
 a {
@@ -204,6 +204,7 @@ img {
   user-select: none;
 }
 img.inline {
+  display: inline-block;
   margin: 0.5em auto 0.5em auto;
   max-width: 100%;
   max-height: 75vh;
@@ -223,7 +224,6 @@ img.left {
 img.display {
   max-width: 100%;
   max-height: 50vh;
-  margin-top: 0.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -290,16 +290,6 @@ pre:first-line {
     line-height: 0px;
 }
 
-
-footer {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--dark-grey);
-  padding: 50px 0px 50px 0px;
-  text-align: center;
-}
-
-
 sup, sub {
   vertical-align: baseline;
   position: relative;
@@ -313,16 +303,25 @@ sub {
 
 
 
+footer {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--dark-grey);
+  padding: 0 0 3rem 0;
+  text-align: center;
+}
+
+
 
 @media (max-width: 41rem) {
   .noggin {
-    height: 4em
+    height: 4rem
   }
   .myname {
-    font-size: 2.2em;
+    font-size: 2.2rem;
   }
   .mylinks {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
   #myemailicon {
     display: inline-block;
@@ -336,19 +335,24 @@ sub {
   .fishbtn-container {
     display: none !important;
   }
-  img.right, img.left {
-    max-width: 100%;
-    max-height: 50vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    float: none;
+  img.right {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: 0 0 0 1rem;
   }
+  img.left {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin: 0 1rem 0 0;
+  }  
   p {
     text-align: left;
   }
   a.button {
     font-size: 0.9rem;
   }
+  h3 {
+    margin: 1.5rem 0 0rem 0;
+  }
+  
 }
