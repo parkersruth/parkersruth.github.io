@@ -43,7 +43,7 @@ illustration of a smartphone on a desk emitting sound waves towards a seated use
 {{< /image >}}
 
 
-Sustained physical activity is among the best predictors of overall health and wellbeing, yet most adults fall short of national exercise recommendations. While working in the [UbiComp Lab](https://ubicomplab.cs.washington.edu/members/), I collaborated with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), I designed a smartphone application that could be prescribed to patients at University of Washington Medicine clinics. To extend the quantification of physical activity beyond step counting, I tested the use of smartphone-basded acoustic sonar sensing to classify home exercises.
+Sustained physical activity is among the best predictors of overall health and wellbeing, yet most adults fall short of national exercise recommendations. While working in the [UbiComp Lab](https://ubicomplab.cs.washington.edu/members/), I collaborated with the [Sports Institute at UW Medicine](https://thesportsinstitute.com/), I designed a smartphone application that could be prescribed to patients at University of Washington Medicine clinics. To extend the quantification of physical activity beyond step counting, I tested the use of smartphone-based acoustic sonar sensing to classify home exercises.
 
 
 
@@ -168,23 +168,9 @@ In Autumn 2019 I co-instructed the UW BIOEN 217 MATLAB Fundamentals for Bioengin
 
 ### Biosignal Processing Textbook
 
-<!-- {{< image src="inducktor.jpg" width="30rem">}}
-a worked example from the textbook called inDUCKtor: asks the student to derive the gain function for an RL circuit next to a duck wearing a stethoscope
-{{< /image >}} -->
-
 I wrote a 140-page course textbook for BIOEN 316 Signals and Sensors for Bioengineers. Topics include biosignal acquisition, Fourier analysis, digital and analog filtering, and linear systems. All of the document's text, equations, and figures are typeset in pure LaTeX.
 
 {{< button Book "https://parkersruth.com/biosignal-processing" >}}
-
-<!-- ### Python for Chemists
-
-{{< image src="python-for-chemists.jpg" width="30rem">}}
-screenshot of worksheet instructions for the Belousov=Zhabotinsky reaction kinetics: a chemical equation, a paper citation, and a list of assumptions and initial conditions
-{{< /image >}}
-
-I worked with a University of Washington chemistry professor to create Python programming Jupyter notebook worksheets to accompany homeworks and labs for the CHEM 155 honors general chemistry curriculum. The worksheets and answer keys are freely available to educators. Topics include root finding, reaction kinetics simulations, quantum wavefunction visualizations, and scientific computing.
-
-{{< button Code "https://github.com/parkersruth/python-for-chemists" >}} -->
 
 
 
