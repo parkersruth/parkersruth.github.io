@@ -21,7 +21,7 @@ I study how ubiquitous sensors can capture insights about our physical health fr
 
 ### Video-based neuromuscular biomarkers
 
-{{< image src="opencap_nmd.svg" class="inline" width="35rem" >}}
+{{< image src="opencap_nmd.svg" width="35rem" >}}
 Illustration showing people being recorded by smartphone cameras. Videos are processed using OpenCap to produce a skeletal model which is then used to generate features for disease classification and biomarker design.
 {{< /image >}}
 
@@ -49,9 +49,9 @@ Sustained physical activity is among the best predictors of overall health and w
 
 ## Sensing Cardiovascular Health
 
-{{< image src="wu_sim.svg" width="20em" >}}
-TODO
-{{< /image >}}
+<!-- {{< image src="wu_sim.svg" width="20em" >}}
+Scatterplots comparing sBP prediction accuracy using existing sensors (RMSE=40.1) versus a proposed sensor (RMSE=4.26). Results are from a simulation.
+{{< /image >}} -->
 
 
 Cardiovascular health is among the most important factors for longevity and overall wellbeing.
@@ -144,11 +144,8 @@ Detecting drug-resistant strains of HIV is necessary to prescribe life-saving tr
 But the standard sequencing methods are infeasible in resource-limited settings where drug-resistant HIV is most threatening. Low-cost paper-based lateral flow tests can dramatically reduce cost barriers; however, human error limits the sensitivity and specificity these tests. I built an image processing pipeline to interpret lateral flow tests for HIV and other global health applications.
 
 {{< button Paper "https://www.thelancet.com/article/S2352-3964(19)30743-1/fulltext" >}}
-
 {{< button Paper "https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx">}}
-
 {{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
-
 {{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.26.21257187v1" >}}
 
 
