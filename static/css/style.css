@@ -22,7 +22,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   max-width: var(--body-width);
-  line-height: 1.31415;
   margin: auto;
   font-size: 100%;
   padding: 0 2rem 2rem 2rem;
@@ -176,10 +175,7 @@ p {
   text-align: justify;
   margin: 0.25rem 0 0.75rem 0;
   /* margin-bottom: 0.25rem; */
-}
-
-b {
-  font-weight: bold;
+  line-height: 1.5;
 }
 
 a.button {
@@ -388,5 +384,12 @@ sub {
     margin-top: 0;
     margin-bottom: 0;
     float: none;
+  }
+  p {
+    /* font-size: 0.9rem; */
+    text-align: left;
+  }
+  a.button {
+    font-size: 0.9rem;
   }
 }
