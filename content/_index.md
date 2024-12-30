@@ -37,6 +37,7 @@ I showed that video analysis can detect differences in gait kinematics and arm r
 I'm now using this data to design more sensitive biomarkers of neuromuscular health.
 
 {{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
+
 {{< button Video "https://youtu.be/tmlzs57l4YI" >}}
 
 
@@ -82,6 +83,7 @@ Lowering barriers to regular blood pressure measurement is a grand challenge in 
 [Prior work](https://ubicomplab.cs.washington.edu/pdfs/seismo.pdf) from my lab showed how smartphone cameras and motion sensors can be used to measure pulse transit time. I followed this work by implementing a smarthone app with real-time sensing, signal processing, and visualization. I presented this demo at a Paul G. Allen School technology CEO summit, the 2018 Industry Affiliates Research Day, and the 2018 University of Washington Undergraduate Research Symposium.
 
 {{< button Poster "/docs/seismo_poster.pdf" >}}
+
 {{< button Code "https://github.com/ubicomplab/Seismo" >}}
 
 {{< image src="seismo.jpg" width="20rem">}}
@@ -143,8 +145,11 @@ Detecting drug-resistant strains of HIV is necessary to prescribe life-saving tr
 But the standard sequencing methods are infeasible in resource-limited settings where drug-resistant HIV is most threatening. Low-cost paper-based lateral flow tests can dramatically reduce cost barriers; however, human error limits the sensitivity and specificity these tests. I built an image processing pipeline to interpret lateral flow tests for HIV and other global health applications.
 
 {{< button Paper "https://www.thelancet.com/article/S2352-3964(19)30743-1/fulltext" >}}
+
 {{< button Paper "https://journals.lww.com/aidsonline/Fulltext/2020/07150/Near_point_of_care,_point_mutation_test_to_detect.6.aspx">}}
+
 {{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
+
 {{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.26.21257187v1" >}}
 
 
