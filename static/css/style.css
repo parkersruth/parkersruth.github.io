@@ -23,7 +23,7 @@ body {
   max-width: var(--body-width);
   margin: auto;
   font-size: 100%;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 main {
@@ -34,42 +34,11 @@ main {
   justify-content: flex-start;
 }
 
-.sidebar {
-  position: sticky;
-  top: 10.25rem;
-  align-self: flex-start;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.0rem;
-  font-weight: 600;
-  margin-right: 1.5rem;
-  text-align: right;
-  white-space: nowrap;
-}
-#TableOfContents ul {
-  padding-inline-start: 0em;
-}
-#TableOfContents ul li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
-#TableOfContents ul li > ul > li {
-  font-size: 0.75rem;
-  margin-bottom: 0;
-}
-#TableOfContents ul li a {
-  color: var(--dark-grey);
-}
-#TableOfContents ul li a:hover {
-  color: var(--accent-light);
-}
-
-
 header {
   position: sticky;
   top: 0;
   background-color: white;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-bottom: 0.1rem solid var(--medium-grey);
@@ -132,8 +101,40 @@ header {
   background-color: var(--accent-light);
 }
 
+
+.sidebar {
+  position: sticky;
+  top: 11.25rem;
+  align-self: flex-start;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 600;
+  margin-right: 2rem;
+  text-align: right;
+  white-space: nowrap;
+}
+#TableOfContents ul {
+  padding-inline-start: 0em;
+}
+#TableOfContents ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+#TableOfContents ul li > ul > li {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+#TableOfContents ul li a {
+  color: var(--dark-grey);
+}
+#TableOfContents ul li a:hover {
+  color: var(--accent-light);
+}
+
+
 h1, h2, h3 {
-  scroll-margin-top: 9rem;
+  scroll-margin-top: 10rem;
   clear: both;
 }
 h1 {

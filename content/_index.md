@@ -34,7 +34,7 @@ Slow-progressing movement disorders are difficult to measure over time. Common m
 I aim to close this gap with [OpenCap](https://www.opencap.ai/), a smartphone-based tool for biomechanical analysis developed by the Stanford [NMBL Lab](https://nmbl.stanford.edu/).
 By running high-throughput studies and on-site data collections at conferences, community events, and clinics, I collected the largest motion capture dataset for muscular dystrophy.
 I showed that video analysis can detect differences in gait kinematics and arm range-of-motion that existing metrics miss.
-I'm now using this data to design more sensitive biomarkers of neuromuscular health.
+I'm now designing more sensitive biomarkers of neuromuscular health.
 
 {{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
 
@@ -43,7 +43,7 @@ I'm now using this data to design more sensitive biomarkers of neuromuscular hea
 
 ### Mobile Sonar Exercise Sensing
 
-{{< image src="sonar.svg" class="inline" class="right" width="7rem">}}
+{{< image src="sonar.svg" class="inline" class="right" width="5rem">}}
 illustration of a smartphone on a desk emitting sound waves towards a seated user
 {{< /image >}}
 
