@@ -38,7 +38,7 @@ I'm now designing more sensitive biomarkers of neuromuscular health.
 
 {{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
 
-{{< button Video "https://youtu.be/tmlzs57l4YI" >}}
+{{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
 
 ### Mobile Sonar Exercise Sensing
