@@ -40,6 +40,10 @@ I'm now designing more sensitive biomarkers of neuromuscular health.
 
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
+{{< button Data "https://doi.org/10.5281/zenodo.13788592" >}}
+
+{{< button Code "https://github.com/stanfordnmbl/opencap-fshd-dm-analysis" >}}
+
 
 ### Mobile Sonar Exercise Sensing
 
