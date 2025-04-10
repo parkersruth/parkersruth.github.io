@@ -167,7 +167,7 @@ illustration of computer vision algorithm: the bands on a lateral flow test are 
 # Teaching
 
 ### Human-Computer Interaction: Foundations and Frontiers
-In winter 2024 I am a course assistant for Stanford CS 347. I lead weekly discussion sections on seminal literature in human-computer interaction. I also support writing quizzes and grading reading reflections.
+In winter 2024 I was a course assistant for Stanford CS 347. I led weekly discussion sections on seminal literature in human-computer interaction. I supported writing quizzes and grading reading reflections. I presented a lecture on HCI+Health.
 
 ### Ubiquitous Computing Seminar
 During the 2019&ndash;2020 academic year I led the UW CSE 590 U ubiquitous computing research seminar, which met weekly to discuss academic papers in interaction techniques, wearables, novel sensing, and pervasive computing.
