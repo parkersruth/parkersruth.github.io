@@ -207,6 +207,10 @@ We discussed improvements to department curriculum and student programs, collect
 
 ## Grants & Fellowship
 
+{{< award date="December 2024" title="NIH F31 Predoctoral Fellowship" >}}
+$148,000 national fellowship for cardiovascular health sensing work
+{{< /award >}}
+
 {{< award date="December 2024" title="Wu Tsai Human Performance Alliance Seed Grant" >}}
 $200,000 internal Stanford grant for cardiovascular health sensing work
 {{< /award >}}
