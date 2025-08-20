@@ -207,7 +207,7 @@ We discussed improvements to department curriculum and student programs, collect
 
 ## Grants & Fellowship
 
-{{< award date="December 2024" title="NIH F31 Predoctoral Fellowship" >}}
+{{< award date="August 2025" title="NIH F31 Predoctoral Fellowship" >}}
 $148,000 national fellowship for cardiovascular health sensing work
 {{< /award >}}
 
