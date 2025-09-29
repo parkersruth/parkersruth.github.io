@@ -3,11 +3,11 @@ title: "Parker Ruth - Stanford CS PhD"
 ---
 
 I'm a Stanford Computer Science PhD student working in the intersection of computing, engineering, and medicine. I'm currently designing sensors and algorithms to measure digital biomarkers of neuromuscular and cardiovascular health.
-I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in pediatric cardiology, [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology, and [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics.
+I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in cardiology, [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology, and [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics.
 
 I earned undergraduate degrees in bioengineering and computer engineering from the University of Washington in Seattle. As a member of the UbiComp Lab advised by [Shwetak Patel](https://ubicomplab.cs.washington.edu/members/), I explored applications of computing tools to improve the quality and accessibility of healthcare, including mobile health, wearables, and population health.
 
-I'm honored to be named an NSF Graduate Research Fellow, Hertz Fellowship Finalist, and Goldwater Scholar.
+I'm honored to be named an NIH F31 Predoctoral Fellow, NSF Graduate Research Fellow, Hertz Fellowship Finalist, and Goldwater Scholar.
 
 I will graduate with my PhD in 2027.
 
@@ -36,7 +36,7 @@ By running high-throughput studies and on-site data collections at conferences, 
 I showed that video analysis can detect differences in gait kinematics and arm range-of-motion that existing metrics miss.
 I'm now designing more sensitive biomarkers of neuromuscular health.
 
-{{< button Preprint "https://doi.org/10.1101/2024.09.26.613967" >}}
+{{< button Paper "https://doi.org/10.1056/AIoa2401137" >}}
 
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
@@ -60,7 +60,7 @@ Sustained physical activity is among the best predictors of overall health and w
 Cardiovascular health is among the most important factors for longevity and overall wellbeing.
 I envision a future where affordable wearables can measure continuous changes in important parameters of heart and blood vessel function.
 I'm currently leading a moonshot project designing novel sensors and algorithms for measuring digital biomarkers of cardiovascular health.
-This work is funded by a $200,000 Wu Tsai Human Performance Alliance Seed Grant.
+This work is funded by a \$200,000 Wu Tsai Human Performance Alliance Seed Grant and a \$148,000 NIH F31 Fellowship.
 While this project remains in stealth mode, my prior work on cardiovascular sensing is described below.
 
 {{< image src="wu_sim.svg" width="20em" >}}
@@ -190,7 +190,7 @@ I wrote a 140-page course textbook for BIOEN 316 Signals and Sensors for Bioengi
 I am grateful for the excellent mentorship I have received and enjoy helping to uplift others. I mentor students through the CURIS program for Stanford undergaduates and the LINXS summer outreach program for students at HBCUs and HSIs. If you are an undergraduate interested in getting involved in research, please email me at paru@stanford.edu.
 
 ### Stanford Dean's Graduate Student Advisory Council
-I represent the Computer Science Department on the Stanford Dean's Graduate Student Advisory Council. Our mandate is to work with the School of Engineering dean and chairs to help engineering graduate students thrive. I lead a subcommittee working to institute individual development plans for all engineering PhD students, create the first school-wide student experience feedback survey, and mobilize event funding to foster inter-department social connections.
+I represented the Computer Science Department on the Stanford Dean's Graduate Student Advisory Council, which works with the School of Engineering dean and chairs to help engineering graduate students thrive. I led a subcommittee working to institute individual development plans for all engineering PhD students, create the first school-wide student experience feedback survey, and mobilize event funding to foster inter-department social connections.
 
 ### Stanford Computer Science PhD Student Admissions Committee
 I reviewed applications to the Stanford Computer Science PhD program in 2022 and 2023. I represented the Human Computer Interaction research area and advocated for applicants from both traditional and untraditional pathways.
