@@ -154,7 +154,7 @@ But the standard sequencing methods are infeasible in resource-limited settings 
 
 {{< button Paper "https://doi.org/10.1371/journal.pgph.0000185" >}}
 
-{{< button Paper "https://www.medrxiv.org/content/10.1101/2021.05.26.21257187v1" >}}
+{{< button Paper "https://doi.org/10.1089/aid.2021.0103" >}}
 
 
 {{< image src="ola-simple.jpg" width="20rem" >}}
