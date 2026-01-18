@@ -1,0 +1,18 @@
+
+<div class="citation">
+    <div class="authors">
+        {{ .Get "authors" | .Page.RenderString }}.
+    </div>
+    <div class="title">
+        {{ .Get "title" }}.
+    </div>
+    <div class="venue">
+        {{ .Get "venue" | .Page.RenderString }}
+    </div>
+    <div class="doi">
+        <a href='https://doi.org/{{ .Get "doi" }}'>{{ .Get "doi" }}</a>
+    </div>
+    <div class="artifacts">
+        {{ .Inner }}
+    </div>
+</div>

@@ -35,11 +35,19 @@ We addressed this need with [OpenCap](https://www.opencap.ai/), a smartphone-bas
 By running high-throughput studies and on-site data collections at conferences, community events, and clinics, we collected the largest dataset of neuromuscular disease motion capture.
 We showed that video analysis can detect disease-specific patterns of movement that existing metrics cannot.
 I am now designing statistical models of disease progression to enable more sensitive biomarkers of neuromuscular health.
+
+{{< citation
+    authors="**Parker S. Ruth***, Scott D. Uhlrich*, Constance de Monts, Antoine Falisse, Julie Muccini, Sydney Covitz, Shelby Vogt-Domke, John Day, Tina Duong, and Scott Delp"
+    title="Video-Based Biomechanical Analysis Captures Disease-Specific Movement Signatures of Different Neuromuscular Diseases"
+    venue="*NEJM AI*, vol. 2, no. 9, p. AIoa2401137, Aug. 2025"
+    doi="10.1056/AIoa2401137"
+    >}}
+<!-- {{< button Paper "https://doi.org/10.1056/AIoa2401137" >}} -->
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
-
 {{< button Data "https://doi.org/10.5281/zenodo.13788592" >}}
-
 {{< button Code "https://github.com/stanfordnmbl/opencap-fshd-dm-analysis" >}}
+{{< /citation >}}
+
 
 
 ### Mobile Sonar Exercise Sensing

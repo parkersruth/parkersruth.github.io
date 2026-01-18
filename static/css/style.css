@@ -169,6 +169,35 @@ p {
   line-height: 1.5;
   margin: 0 0 0.5rem 0;
 }
+main ul {
+  font-size: 0.8rem;
+  padding-left: 2em;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  color: green;
+}
+
+.citation {
+  /* color: var(--dark-grey); */
+  font-size: 0.7rem;
+  border-left: 2px solid var(--medium-grey);
+  padding-left: 1rem;
+}
+.citation div {
+  display: inline;
+}
+.citation .artifacts {
+  padding-top: 0.2rem;
+  display: block;
+}
+/* .citation .title, .citation .doi {
+  display: block;
+} */
+.citation .title {
+  font-weight: 600;
+}
 
 a {
   color: var(--accent-dark);
