@@ -35,6 +35,7 @@ We addressed this need with [OpenCap](https://www.opencap.ai/), a smartphone-bas
 By running high-throughput studies and on-site data collections at conferences, community events, and clinics, we collected the largest dataset of neuromuscular disease motion capture.
 We showed that video analysis can detect disease-specific patterns of movement that existing metrics cannot.
 I am now designing statistical models of disease progression to enable more sensitive biomarkers of neuromuscular health.
+
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
 {{< button Data "https://doi.org/10.5281/zenodo.13788592" >}}
