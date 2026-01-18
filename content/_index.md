@@ -66,19 +66,6 @@ Scatterplots comparing sBP prediction accuracy using existing sensors (RMSE=40.1
 {{< /image >}}
 
 
-### Earbud Physiological Sensing
-
-{{< image src="earbud_phys.svg" class="right" width="4rem" >}}
-illustration of earbuds with heart icons
-{{< /image >}}
-
-The growing adoption of wireless earbuds provides an opportunity for new modalities of continuous physiological sensing.
-I developed sensing and signal processing techniques for in-ear physiological sensing.
-We showed that in-ear noise-cancelling microphones can be repurposed to recover heart sounds from digital stethoscopes.
-
-{{< button Paper "https://doi.org/10.1109/EMBC53108.2024.10781641" >}}
-
-
 ### Smartphone Pulse Transit Time Measurement
 
 Lowering barriers to regular blood pressure measurement is a grand challenge in health sensing. A common proxy for blood pressure is pulse transit time, the delay between a heartbeat and the arrival of the pulse wave at the fingertip.
@@ -103,6 +90,19 @@ The rise of headsets and head-worn technologies opens a door to measuring physio
 To study the physiological patterns of pulse timing in facial arteries, I built a multi-channel facial pulse sensing system to record synchronized photoplethysmogram waveforms at multiple locations and optical wavelengths.
 
 {{< button Paper "https://ieeexplore.ieee.org/document/9176700" >}}
+
+
+### Earbud Physiological Sensing
+
+{{< image src="earbud_phys.svg" class="right" width="4rem" >}}
+illustration of earbuds with heart icons
+{{< /image >}}
+
+The growing adoption of wireless earbuds provides an opportunity for new modalities of continuous physiological sensing.
+I developed sensing and signal processing techniques for in-ear physiological sensing.
+We showed that in-ear noise-cancelling microphones can be repurposed to recover heart sounds from digital stethoscopes.
+
+{{< button Paper "https://doi.org/10.1109/EMBC53108.2024.10781641" >}}
 
 
 ## Ambient Intelligence for Healthcare
