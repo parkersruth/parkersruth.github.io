@@ -1,6 +1,6 @@
 :root {
   --accent-light: #31AEB5;
-  --accent-dark: #047b81;
+  --accent-dark: #23848A;
   --light-grey: #EEEEEE;
   --medium-grey: #AAAAAA;
   --dark-grey: #888888;
@@ -114,6 +114,7 @@ header {
   white-space: nowrap;
 }
 #TableOfContents ul {
+  font-size: 1rem;
   padding-inline-start: 0em;
 }
 #TableOfContents ul li {
@@ -139,17 +140,20 @@ h1, h2, h3 {
 }
 h1 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 300;
-  font-size: 2.25rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--dark-grey);
   clear: left;
-  border-bottom: 0.1rem solid var(--medium-grey);
-  margin: 4rem 0 0 0;
+  border-top: 0.1rem solid var(--medium-grey);
+  padding-top: 0.5rem;
+  margin-top: 4rem;
 }
 h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.35rem;
-  margin: 2.5rem 0 0 0 ;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0 0 ;
 }
 h3 {
   /* display: inline; */
@@ -173,17 +177,18 @@ a {
 a:hover {
   color: var(--accent-light);
 }
+
 a.button {
   display: inline-block;
-  background-color: var(--accent-light);
-  color: white;
+  border: 1px solid var(--accent-dark);
+  color: var(--accent-dark);
   font-weight: 600;
   text-decoration: none;
   outline: none;
   border-radius: 0.3rem;
   padding: 0.15rem 0.3rem;
   margin: 0 0.25rem 0.25rem 0;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   text-align: center;
   -webkit-user-select: none;
@@ -193,7 +198,9 @@ a.button {
   user-select: none;
 }
 a.button:hover {
-  background-color: var(--accent-dark);
+  border-color: var(--accent-light);
+  background-color: var(--accent-light);
+  color: white;
 }
 
 img {

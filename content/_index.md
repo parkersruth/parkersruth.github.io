@@ -2,10 +2,10 @@
 title: "Parker Ruth - Stanford CS PhD"
 ---
 
-I'm a Stanford Computer Science PhD student working in the intersection of computing, engineering, and medicine. I'm currently designing sensors and algorithms to measure digital biomarkers of neuromuscular and cardiovascular health.
-I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in cardiology, and [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology.
+I'm a Stanford Computer Science PhD student working in the intersection of computing, engineering, and medicine. I'm currently designing digital biomarkers for cardiovascular and neuromuscular health.
+I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate closely with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in cardiology, and [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology.
 
-I earned undergraduate degrees in bioengineering and computer engineering from the University of Washington in Seattle. As a member of the UbiComp Lab advised by [Shwetak Patel](https://ubicomplab.cs.washington.edu/members/), I explored applications of computing tools to improve the quality and accessibility of healthcare, including mobile health, wearables, and population health.
+I graudated _summa cum laude_ from the University of Washington in Seattle with bachelors in bioengineering and computer engineering. My undergraduate research was on mobile health, wearables, and population health under the mentorship of [Shwetak Patel](https://ubicomplab.cs.washington.edu/members/).
 
 I'm honored to be named an NIH F31 Predoctoral Fellow, NSF Graduate Research Fellow, Hertz Fellowship Finalist, and Goldwater Scholar.
 
@@ -30,14 +30,11 @@ Illustration showing people being recorded by smartphone cameras. Videos are pro
 Two smartphones on tripods filming a man running.
 {{< /image >}}
 
-Slow-progressing movement disorders are difficult to measure over time. Common movement metrics are not sensitive to disease-specific movement patterns, limiting our ability to measure drug effects and monitor progression.
-I aim to close this gap with [OpenCap](https://www.opencap.ai/), a smartphone-based tool for biomechanical analysis developed by the Stanford [NMBL Lab](https://nmbl.stanford.edu/).
-By running high-throughput studies and on-site data collections at conferences, community events, and clinics, I collected the largest motion capture dataset for muscular dystrophy.
-I showed that video analysis can detect differences in gait kinematics and arm range-of-motion that existing metrics miss.
-I'm now designing more sensitive biomarkers of neuromuscular health.
-
-{{< button Paper "https://doi.org/10.1056/AIoa2401137" >}}
-
+Slow-progressing movement disorders require sensitive metrics to detect effects of therapies in clinical trials.
+We addressed this need with [OpenCap](https://www.opencap.ai/), a smartphone-based tool for biomechanical analysis developed by the Stanford [NMBL Lab](https://nmbl.stanford.edu/).
+By running high-throughput studies and on-site data collections at conferences, community events, and clinics, we collected the largest dataset of neuromuscular disease motion capture.
+We showed that video analysis can detect disease-specific patterns of movement that existing metrics cannot.
+I am now designing statistical models of disease progression to enable more sensitive biomarkers of neuromuscular health.
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
 {{< button Data "https://doi.org/10.5281/zenodo.13788592" >}}
@@ -184,21 +181,21 @@ I wrote a 140-page course textbook for BIOEN 316 Signals and Sensors for Bioengi
 
 
 
-# Service
+<!-- # Service -->
 
-### Undergraduate Researcher Mentorship
-Mentoring students is one of the best parts of being a PhD student. At Stanford I have mentored students through the CURIS, LINXS, SSFP, and Bio-X research programs. If you are an undergraduate interested in getting involved in research please email me at paru@stanford.edu.
+<!-- ## Peer Reviewing
 
-### Stanford Dean's Graduate Student Advisory Council
-I represented the Computer Science Department on the Stanford Dean's Graduate Student Advisory Council, which works with the School of Engineering dean and chairs to help engineering graduate students thrive. I led a subcommittee working to institute individual development plans for all engineering PhD students, create the first school-wide student experience feedback survey, and mobilize event funding to foster inter-department social connections.
+- Journal of Shoulder and Elbow Surgery, 2025
+- (IMWUT) Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2025
+- (CHI LBW) ACM CHI conference on Human Factors in Computing Systems, late-breaking work, 2024
 
-### Stanford Computer Science PhD Student Admissions Committee
-I reviewed applications to the Stanford Computer Science PhD program in 2022 and 2023. I represented the Human Computer Interaction research area and advocated for applicants from both traditional and untraditional pathways.
 
-### UW Bioengineering Department Curriculum Committee
-I was selected to represent my undergraduate cohort on the department curriculum committee.
-We discussed improvements to department curriculum and student programs, collect student feedback, propose solutions to improve the academic experience.
+## Volunteering
 
+- Stanford Computer Science Faculty Search Committee
+- Stanford Dean's Graduate Student Advisory Council
+- Stanford Computer Science PhD Student Admissions Committee
+- University of Washington Bioengineering Department Curriculum Committee -->
 
 
 
@@ -313,3 +310,28 @@ Competitive UW program for undergraduate innovators
 {{< award date="September 2016" title="Interdisciplinary Honors Program" >}}
 Selective community of undergraduate scholars
 {{< /award >}}
+
+
+# Mentoring
+
+### 
+
+Mentoring students is one of the best parts of being a PhD student. At Stanford I have mentored students through the CURIS, LINXS, SSFP, and Bio-X research programs. If you are an undergraduate interested in getting involved in research please email me at paru@stanford.edu.
+
+My current and former mentees are:
+
+- Sohan Chunduru
+- Indu Gadiraju
+- Lily O'Brien
+- Chloe Zhong
+- Milly Wong
+- Nathalie Moreno
+- Tommy DeBenedetti
+- Ron Polonsky
+- Eli Waldman
+- Amanda Phan
+- Morayo Adeyemi
+- Jordan Rodriguez
+- Ege Turan
+- Alexandra Collins
+- Hamad Musa
