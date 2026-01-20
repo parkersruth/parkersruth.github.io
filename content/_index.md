@@ -36,6 +36,8 @@ By running high-throughput studies and on-site data collections at conferences, 
 We showed that video analysis can detect disease-specific patterns of movement that existing metrics cannot.
 I am now designing statistical models of disease progression to enable more sensitive biomarkers of neuromuscular health.
 
+{{< button Paper "https://doi.org/10.1056/AIoa2401137" >}}
+
 {{< button Video "https://youtu.be/80fBkUhcj5Q" >}}
 
 {{< button Data "https://doi.org/10.5281/zenodo.13788592" >}}
