@@ -313,7 +313,7 @@ Selective community of undergraduate scholars
 {{< /award >}}
 
 
-# Mentoring
+<!-- # Mentoring
 
 ### 
 
@@ -335,4 +335,4 @@ My current and former mentees are:
 - Jordan Rodriguez
 - Ege Turan
 - Alexandra Collins
-- Hamad Musa
+- Hamad Musa -->
