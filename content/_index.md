@@ -60,12 +60,21 @@ Sustained physical activity is among the best predictors of overall health and w
 Cardiovascular health is among the most important factors for longevity and overall wellbeing.
 I envision a future where affordable wearables can measure continuous changes in important parameters of heart and blood vessel function.
 I'm currently leading a moonshot project designing novel sensors and algorithms for measuring digital biomarkers of cardiovascular health.
-This work is funded by a \$200,000 Wu Tsai Human Performance Alliance Seed Grant and a \$148,000 NIH F31 Fellowship.
-While this project remains in stealth mode, my prior work on cardiovascular sensing is described below.
 
-{{< image src="wu_sim.svg" width="20em" >}}
-Scatterplots comparing sBP prediction accuracy using existing sensors (RMSE=40.1) versus a proposed sensor (RMSE=4.26). Results are from a simulation.
+
+### Vascular Waveform Analysis with Bayesian Pulse Deconvolution
+
+{{< image src="pulse_deconv.svg" width="35rem">}}
+Two smartphones on tripods filming a man running.
 {{< /image >}}
+
+Vascular waveforms are widely used to measure vital signs, diagnose conditions, and predict long-term health outcomes.
+I developed a Bayesian pulse deconvolution algorithm that outperforms typical signal processing methods for on noise reduction, pulse timing detection, and shape extraction.
+The algorithm uses an analytical, generative model of vascular waveforms with priors informed by physical and biological domain knowledge.
+
+{{< button Paper "https://doi.org/10.64898/2026.02.09.699383">}}
+
+{{< button Code "https://doi.org/10.5281/zenodo.18586098">}}
 
 
 ### Smartphone Pulse Transit Time Measurement
@@ -110,7 +119,8 @@ We showed that in-ear noise-cancelling microphones can be repurposed to recover 
 ## Ambient Intelligence for Healthcare
 
 I am currently supporting an initiative to study how interactions between older adults and caregivers can be enhanced by privacy-preserving intelligent sensing systems integrated with the built environment.
-We have conducted formative deisgn workshops with older adults, personal health aides, and certified nursing assistants. We are now prototyping multimodal health sensing systems in preparation for a field deployment study.
+We have conducted formative deisgn workshops with older adults, personal health aides, and certified nursing assistants.
+We are now prototyping multimodal health sensing systems in preparation for a field deployment study.
 
 {{< image src="hpds.svg" width="18rem" >}}
 Illustration of a small home with sensors (camera, indoor climate sensor, floor sensor, WiFi sensor, door sensor) and smart devices (smartwatch, ambient display, smart speaker, and tablet). There is an older adult inside and a caregiver at the door.
