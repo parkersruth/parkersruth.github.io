@@ -176,6 +176,10 @@ illustration of computer vision algorithm: the bands on a lateral flow test are 
 
 # Teaching
 
+### AI in Medicine High School Summer Program
+In summer 2026, I designed and led 2-week program with guest speakers, lab tours, and project work.
+I delivered workshops teaching biomechanics, computing, design, and AI for medicine
+
 ### Human-Computer Interaction: Foundations and Frontiers
 In winter 2024 I was a course assistant for Stanford CS 347. I led weekly discussion sections on seminal literature in human-computer interaction. I supported writing quizzes and grading reading reflections. I presented a lecture on HCI+Health.
 
