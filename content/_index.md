@@ -44,6 +44,8 @@ I am now designing statistical models of disease progression to enable more sens
 
 {{< button Code "https://github.com/stanfordnmbl/opencap-fshd-dm-analysis" >}}
 
+{{< button Webinar "https://faircenter.stanford.edu/2026/05/08/webinar-accelerating-biomarker-discovery-through-large-scale-motion-capture-using-opencap/" >}}
+
 
 ### Mobile Sonar Exercise Sensing
 
