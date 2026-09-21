@@ -5,7 +5,7 @@ title: "Parker Ruth - Stanford CS PhD"
 I'm a Stanford Computer Science PhD student working in the intersection of computing, engineering, and medicine. I'm currently designing digital biomarkers for cardiovascular and neuromuscular health.
 I am fortunate to be advised by [James Landay](https://www.landay.org/) and collaborate closely with [Scott Delp](https://nmbl.stanford.edu/people/scott-delp/) in biomechanics, [Todd Coleman](https://engineering.stanford.edu/people/todd-coleman) in bioengineering, [Emily Fox](https://statistics.stanford.edu/people/emily-b-fox) in statistics, [Alison Marsden](https://cbcl.stanford.edu/people/alison-marsden) in cardiology, and [Jeremy Dahl](https://med.stanford.edu/profiles/jeremy-dahl) in radiology.
 
-I graudated _summa cum laude_ from the University of Washington in Seattle with bachelors in bioengineering and computer engineering. My undergraduate research was on mobile health, wearables, and population health under the mentorship of [Shwetak Patel](https://ubicomplab.cs.washington.edu/members/).
+I graduated _summa cum laude_ from the University of Washington in Seattle with bachelors in bioengineering and computer engineering. My undergraduate research was on mobile health, wearables, and population health under the mentorship of [Shwetak Patel](https://ubicomplab.cs.washington.edu/members/).
 
 I'm honored to be named an NIH F31 Predoctoral Fellow, NSF Graduate Research Fellow, Hertz Fellowship Finalist, and Goldwater Scholar.
 
