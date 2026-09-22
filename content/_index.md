@@ -74,7 +74,7 @@ Vascular waveforms are widely used to measure vital signs, diagnose conditions, 
 I developed a Bayesian pulse deconvolution algorithm that outperforms typical signal processing methods for on noise reduction, pulse timing detection, and shape extraction.
 The algorithm uses an analytical, generative model of vascular waveforms with priors informed by physical and biological domain knowledge.
 
-{{< button Paper "https://doi.org/10.64898/2026.02.09.699383">}}
+{{< button Paper "http://dx.doi.org/10.1038/s41746-026-03213-0">}}
 
 {{< button Code "https://doi.org/10.5281/zenodo.18586098">}}
 
