@@ -36,6 +36,8 @@ The algorithm uses an analytical, generative model of vascular waveforms with pr
 
 {{< button Code "https://doi.org/10.5281/zenodo.18586098">}}
 
+{{< button Seminar "https://comphealth.duke.edu/event/comphealth-seminar-featuring-parker-ruth-vascular-waveform-analysis-using-bayesian-pulse-deconvolution/">}}
+
 
 ### Digital biomarkers for neuromuscular disease
 <!-- {{< image src="opencap_nmd.svg" width="35rem">}}
